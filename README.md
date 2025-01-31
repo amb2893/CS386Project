@@ -23,7 +23,7 @@ Welcome to **Gaming Workout Hub** – the perfect balance between gaming and fit
 
 ## Contributors
 
-- Anthony B
+- Anthony Birk
 - Franz Mischke
 - Preston Smith
 - Luke Shahan
