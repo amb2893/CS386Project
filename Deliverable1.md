@@ -11,6 +11,24 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 
 ## 3. Interviews Summary 
 
+### Interview 1: Caleb (1/29/2025)
+
+### Customer Segment  
+**Gamer interested in combining gaming and fitness.**  
+
+### Key Insights  
+- Caleb is motivated by the idea of tracking fitness through devices like Fitbit or Xbox Kinect.  
+- He struggles with motivation to exercise and worries that adding fitness tracking might become a hassle.  
+- Incorporating fitness with gaming could increase motivation slightly.  
+
+### Representative Quotes  
+> "When I play games, I play games to turn off my brain."  
+> "Likes the idea of leveling up specific skills by doing that workout."  
+
+### Assessment  
+- **Must have:** Integration of fitness tracking with gaming.  
+- **Nice to have:** Gamified workout mechanics.  
+- **Don’t care:** Non-invasive tracking methods.  
 
 
 ## 4. Final Value Proposition and Consumer Segments
