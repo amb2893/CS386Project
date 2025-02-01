@@ -13,8 +13,7 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 
 ### Interview 1: Caleb (1/29/2025)
 
-### Customer Segment  
-**Gamer interested in combining gaming and fitness.**  
+### Customer Segment: Gamer interested in combining gaming and fitness.
 
 ### Key Insights  
 - Caleb is motivated by the idea of tracking fitness through devices like Fitbit or Xbox Kinect.  
