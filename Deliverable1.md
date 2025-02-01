@@ -109,6 +109,8 @@ Progress tracking through wearable devices like Fitbit or Apple Watch is preferr
 Time management and motivation remain the top challenges for most interviewees, with participants expressing the need for an easy-to-integrate solution that doesn’t interfere with gaming enjoyment.
 
 ## 4. Final Value Proposition and Consumer Segments
+Our Fitness platform offers a motivational way to incorporate workout in your everyday gaming sessions without interrupting gaming. By allowing you to personalize your workout based on your needs and allowing you to work
+around your games. 
 
 
 
