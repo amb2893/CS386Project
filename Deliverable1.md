@@ -13,8 +13,7 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 
 ### Interview 1: Caleb (1/29/2025)
 
-### Customer Segment  
-**Gamer interested in combining gaming and fitness.**  
+### Customer Segment: Gamer interested in combining gaming and fitness.
 
 ### Key Insights  
 - Caleb is motivated by the idea of tracking fitness through devices like Fitbit or Xbox Kinect.  
@@ -102,6 +101,20 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 - Nice to have: Integration of gaming with light physical activities.
 - Don’t care: Detailed or intense fitness regimens.
 
+### Interview 7: Anonymous Google Sheets (Date: 1/31/2025)
+### Customer Segment: Gamer focused on maintaining mental and physical needs.
+### Key Insights:
+- Wants to maintain and grow physical needs.
+- Consumer want to track fitness progression.
+- Getting motivated to go to the gym is challenging.
+### Representative Quotes:
+- "Access to a gym sometimes is challenging."
+- "Working out helps me with mood, energy, and sleep. I know it is good for my body and I feel like I am helping myself grow physically."
+### Assessment:
+- Must have: Fitness tracker built according to the game.
+- Nice to have: Heart rate and calories burnt.
+- Don’t care: Fitness exercises as long as it is a variety
+
 ### Final Insights Summary:
 ### Common Trends:
 All participants express interest in integrating light exercise into gaming, particularly using downtime for simple movements.
@@ -109,6 +122,18 @@ Progress tracking through wearable devices like Fitbit or Apple Watch is preferr
 Time management and motivation remain the top challenges for most interviewees, with participants expressing the need for an easy-to-integrate solution that doesn’t interfere with gaming enjoyment.
 
 ## 4. Final Value Proposition and Consumer Segments
+### Final Value Proposition
+Our Fitness platform offers a motivational way to incorporate workout in your everyday gaming sessions without interrupting gaming. By allowing you to personalize your workout based on your needs and allowing you to work
+around your games. 
+
+### Consumer Segments
+- Gamer interested in combining gaming and fitness.
+- Gamer who values routine and progress.
+- Gamer who prioritizes fitness goals.
+- Casual gamer who prefers light physical activity.
+- Fitness enthusiast who games as a hobby.
+- Gamer focused on a balanced lifestyle with moderate exercise.
+
 
 
 
