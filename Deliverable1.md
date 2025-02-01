@@ -101,6 +101,20 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 - Nice to have: Integration of gaming with light physical activities.
 - Don’t care: Detailed or intense fitness regimens.
 
+### Interview 7: Anonymous Google Sheets (Date: 1/31/2025)
+### Customer Segment: Gamer focused on maintaining mental and physical needs.
+### Key Insights:
+- Wants to maintain and grow physical needs.
+- Consumer want to track fitness progression.
+- Getting motivated to go to the gym is challenging.
+### Representative Quotes:
+- "Access to a gym sometimes is challenging."
+- "Working out helps me with mood, energy, and sleep. I know it is good for my body and I feel like I am helping myself grow physically."
+### Assessment:
+- Must have: Fitness tracker built according to the game.
+- Nice to have: Heart rate and calories burnt.
+- Don’t care: Fitness exercises as long as it is a variety
+
 ### Final Insights Summary:
 ### Common Trends:
 All participants express interest in integrating light exercise into gaming, particularly using downtime for simple movements.
