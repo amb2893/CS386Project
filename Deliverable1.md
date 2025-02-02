@@ -10,8 +10,8 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 We motivate gamers that have a focus on balance and well-being who want to start self-physical training through prompted productivity and allowing users to activate smart reminders to help aid them through their passion for gaming while maintaining self care.
 
 ### Customer Segments
-Gamers that are health conscious, wanting to burn some calories while gaming.
-Busy gamers struggling to find time for exercise.
+Gamers that are health conscious, wanting to burn some calories while gaming.  
+Busy gamers struggling to find time for exercise.  
 Gamers that are looking to start their fitness journey.
 
 ## 3. Interviews Summary 
