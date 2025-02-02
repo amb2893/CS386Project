@@ -7,7 +7,7 @@ This project aims to aid casual gamers with fitness. The base idea for this proj
 ## 2. Initial Value Proposition and Customer Segments 
 
 ### Proposition
-We motivate gamers that have a focus on balance and well-being who want to start self-physical training through prompted productivity and allowing users to activate smart reminders to help aid them through their passion for gaming while maintaining self care.
+We want to be the website that helps gamers find the motivation to exercise. There is often downtime during games, either during matchmaking or there is a point where progression slows down to a crawl, we want to utilize these times to encourage fitness and provide the tools to accomplish personal fitness goals.
 
 ### Customer Segments
 Gamers that are health conscious, wanting to burn some calories while gaming.  
