@@ -17,7 +17,7 @@ Gamers that are looking to start their fitness journey.
 ## 3. Interviews Summary 
 
 ### Interview 1: Caleb (1/29/2025)
-
+### Interviewee: Luke Shahan
 ### Customer Segment: Gamer interested in combining gaming and fitness.
 
 ### Key Insights  
@@ -35,7 +35,7 @@ Gamers that are looking to start their fitness journey.
 - **Don’t care:** Non-invasive tracking methods.  
 
 ### Interview 2: Joshua Shriber (1/30/2025)
-
+### Interviewee: Luke Shahan
 ### Customer Segment: Gamer who values routine and progress.
 ### Key Insights:
 - Joshua finds motivation in tracking progress and enjoys the routine aspect of exercise, which helps with stress relief.
@@ -49,7 +49,8 @@ Gamers that are looking to start their fitness journey.
 - Nice to have: Mix of gaming mechanics and fitness guidance.
 - Don’t care: Hardcore fitness plans.
 
-### Interview 3: Anonymous Google Sheets (Date: 1/29/2025)
+### Interview 3: Gracie Price (Date: 1/29/2025)
+### Interviewee: Anthony Birk
 ### Customer Segment: Gamer who prioritizes fitness goals.
 ### Key Insights:
 - The participant is motivated by the desire to be "skinnier than their best friend" or to improve personal health, indicating strong personal motivation.
@@ -64,7 +65,8 @@ Gamers that are looking to start their fitness journey.
 - Nice to have: Interactive workouts based on game performance.
 - Don’t care: Complex fitness routines or overly structured plans.
 
-### Interview 4: Anonymous Google Sheets (Date: 1/30/2025)
+### Interview 4: Elijah Woolridge (Date: 1/30/2025)
+### Interviewee: Franz Mischke
 ### Customer Segment: Casual gamer who prefers light physical activity.
 ### Key Insights:
 - The participant envisions simple, short exercises such as band work or walking incorporated into gaming time.
@@ -78,7 +80,8 @@ Gamers that are looking to start their fitness journey.
 - Nice to have: Integration with a game to track reps or activity levels.
 - Don’t care: Rigid workout schedules or advanced features.
 
-### Interview 5: Anonymous Google Sheets (Date: 1/30/2025)
+### Interview 5: Gabi Reinert (Date: 1/30/2025)
+### Interviewee: Preston Smith
 ### Customer Segment: Fitness enthusiast who games as a hobby.
 ### Key Insights:
 - This participant enjoys lifting and cardio workouts, along with playing games casually. Their ideal scenario would combine both by doing pushups during game downtime.
@@ -92,7 +95,8 @@ Gamers that are looking to start their fitness journey.
 - Nice to have: Breaks for exercises like pushups during game loading or downtime.
 - Don’t care: Heavy fitness routines that require extra time.
 
-### Interview 6: Anonymous Google Sheets (Date: 1/30/2025)
+### Interview 6: Ava Holden (Date: 1/30/2025)
+### Interviewee: Jalen Jenson
 ### Customer Segment: Gamer focused on a balanced lifestyle with moderate exercise.
 ### Key Insights:
 - The participant prefers to engage in lighter physical activities, such as basketball and lifting weights, along with their gaming time.
@@ -106,7 +110,8 @@ Gamers that are looking to start their fitness journey.
 - Nice to have: Integration of gaming with light physical activities.
 - Don’t care: Detailed or intense fitness regimens.
 
-### Interview 7: Anonymous Google Sheets (Date: 1/31/2025)
+### Interview 7: Dominic Colombo (Date: 1/31/2025)
+### Interviewee: Mayanna John
 ### Customer Segment: Gamer focused on maintaining mental and physical needs.
 ### Key Insights:
 - Wants to maintain and grow physical needs.
