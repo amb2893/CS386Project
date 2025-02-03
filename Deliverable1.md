@@ -17,7 +17,7 @@ Gamers that are looking to start their fitness journey.
 ## 3. Interviews Summary 
 
 ### Interview 1: Caleb (1/29/2025)
-### Interviewee: Luke Shahan
+### Interviewee: Preston
 ### Customer Segment: Gamer interested in combining gaming and fitness.
 
 ### Key Insights  
@@ -35,7 +35,7 @@ Gamers that are looking to start their fitness journey.
 - **Don’t care:** Non-invasive tracking methods.  
 
 ### Interview 2: Joshua Shriber (1/30/2025)
-### Interviewee: Luke Shahan
+### Interviewee:  Mayanna John
 ### Customer Segment: Gamer who values routine and progress.
 ### Key Insights:
 - Joshua finds motivation in tracking progress and enjoys the routine aspect of exercise, which helps with stress relief.
@@ -111,7 +111,7 @@ Gamers that are looking to start their fitness journey.
 - Don’t care: Detailed or intense fitness regimens.
 
 ### Interview 7: Dominic Colombo (Date: 1/31/2025)
-### Interviewee: Mayanna John
+### Interviewee: Luke Shahan
 ### Customer Segment: Gamer focused on maintaining mental and physical needs.
 ### Key Insights:
 - Wants to maintain and grow physical needs.
@@ -124,6 +124,37 @@ Gamers that are looking to start their fitness journey.
 - Must have: Fitness tracker built according to the game.
 - Nice to have: Heart rate and calories burnt.
 - Don’t care: Fitness exercises as long as it is a variety
+
+### Interview 8: Alayna Sacco (Date: 1/31/2025)
+### Interviewee: Mayanna John
+### Customer Segment: Gamer focused on maintaining mental and physical needs.
+### Key Insights:
+- Finds it easier to combine gaming and exercise to save time.
+- Prefers a reward-based system for tracking fitness progress.
+- Wants a simple workout plan integrated with gaming mechanics rather than a structured fitness routine.
+- Faces challenges with inconsistent schedules and fatigue from studying.
+- Would rather walk throughout gameplay instead of dedicated workout sessions.
+### Representative Quotes:
+- “I think it’s easier to work out and play video games at the same time to have more time to do other things. I don’t have to worry about my free time or exercise time.”
+### Assessment:
+- Prefers gaming mechanics (leveling up, achievements) over traditional fitness guidance.
+- Wants an easy and flexible fitness approach rather than an organized routine.
+
+### Interview 9: Donovan John (Date: 1/31/2025)
+### Interviewee: Jalen
+### Customer Segment: Gamer focused on maintaining mental and physical needs.
+### Key Insights:
+- Finds the idea beneficial for encouraging fitness.
+- Motivated by small, reachable goals with friends.
+- Prefers in-game mechanics (achievements, leveling up) over traditional fitness tracking.
+- Believes a small percentage of gamers would actively use a fitness-integrated gaming system.
+- Would be interested in a portable version of this product.
+### Representative Quotes:
+- “Seeing something like this could be beneficial to self-care and make it easier to encourage a population to start working out.”
+### Assessment:
+- Prefers in-game mechanics (e.g., achievements) over traditional fitness programs.
+- Asked if a portable version would be available.
+- Curious if it would be console-friendly for Xbox and PlayStation.
 
 ### Final Insights Summary:
 ### Common Trends:
