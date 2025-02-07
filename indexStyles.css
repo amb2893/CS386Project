@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color for readability */
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6a0dad; /* Purple text for headings */
+}
+
+a {
+    color: #6a0dad; /* Purple links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a2be2; /* Slightly lighter purple on hover */
+}
+
+button {
+    background-color: #6a0dad; /* Purple background for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8a2be2; /* Lighter purple on hover */
+}
+
+header, footer {
+    background-color: #dcdcdc; /* Light gray background for header/footer */
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
