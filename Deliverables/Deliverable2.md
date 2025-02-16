@@ -153,6 +153,17 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 
 ## 7. User stories
-
+1. As a developer, I want a system that smoothly integrates fitness with gaming  so that I can ensure users stay motivated and committed without disruptions. (21 hours)  
+2. As a casual gamer, I want short, simple exercises that work with my game and track my progress, so that I can work out without messing up my playtime. (8 hours)  
+3. As a Platformer gamer, I want to exercise every time I die in game, so that I can work out when I fail a level. (5 hours)  
+4. As a virtual reality gamer, I want to be able to do fitness challenges in game so I can get a workout while having an immersive experience. (13 hours)  
+5. As a stakeholder, I want an engaging  and scalable fitness environment that will attract users and maintain concurrent usage so that the project will remain popular and have continued growth in the gaming market. (21 hours)  
+6. As a First Person Shooter gamer, I want a website that takes into account when I can work out, so that I can work out without interrupting the game. (8 hours)  
+7. As a simulator player, I want actions in game to be connected to movements in real life so that I can stay active while getting lost in the simulation. (5 hours)  
+8. As a gamer, I want to be able to get a couple exercises during my later gaming hours so that I can get proper rest at night. (5 hours)  
+9. As a college student, I want to be able to work and play games at the same time so I don’t fall behind in class while enjoying my time. (5 hours)  
+10. As a full-time employee, I want a fitness program that integrates gaming sessions in the evening so I can keep up with my activeness despite my busy schedule. (5 hours)  
+11. As a parent, I want my child to stay active while gaming so that they don’t ruin their health from too much screen time. (5 hours)  
+12. As an avid Rust player, I want to build strength and endurance so that when hunting season comes around I will be in shape. (8 hours)  
 
 ## 8. Issue Tracker
