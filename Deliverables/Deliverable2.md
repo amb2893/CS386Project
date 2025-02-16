@@ -137,7 +137,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 5. The user reviews and customizes the plan (adding/removing exercises, adjusting duration).
 6. The plan is saved to the user’s account, including recommended daily or weekly checkpoints.
   
-![Workout Progress](D.2-Pictures/Use_Case3.pdf).
+![Workout Progress](D.2-Pictures/user_case_2.webp).
 
 ### **Use Case #4:** Weekly Progress Tracking and Gamification
 #### **Actor:** User, Developer
