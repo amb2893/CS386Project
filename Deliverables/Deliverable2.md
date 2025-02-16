@@ -108,7 +108,52 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 ![Sign In User Template](D.2-Pictures/Use-Case-1.PNG)
 
-### **Use Case #2:** Create an account  
+### **Use Case #2:** Toggle Between Light and Dark Mode
+#### **Actor:** User, Developer
+#### **Trigger:** The user clicks the "Light/Dark Mode" toggle button on the webpage.
+#### **Pre-conditions:** The user is on the website and has loaded the main page or any page containing the light/dark mode toggle.    
+#### **Post-condition:** The site immediately displays in dark mode, providing the user with reduced glare and a different aesthetic.
+#### **Success Scenario:**  
+1. User clicks the toggle button (currently in Light Mode).
+2. The website’s front-end JavaScript sends a request to update the theme preference.
+3. Developer has implemented the logic that swaps the CSS theme from light to dark.
+4. The site’s stylesheet updates accordingly, changing colors, backgrounds, and text.
+5. If the user is logged in, the new theme preference is saved in their profile (so that it persists on the next visit).
+  
+![Toggle template](Use_Case4.pdf).
+
+### **Use Case #3:** Personalized Workout Plan Setup
+#### **Actor:** User, Developer
+#### **Trigger:** The user selects “Create Workout Plan” in their profile dashboard.
+#### **Pre-conditions:** The user is registered on the website and is logged in. The workout plan feature is fully functional (implemented by the Developer).
+#### **Post-condition:** The user’s personalized workout plan is stored in their profile. 
+#### **Success Scenario:**  
+1. User navigates to their dashboard and clicks “Create Workout Plan.”
+2. The system (developed by the Developer) presents a form asking for the user’s fitness goals, available time slots, and preferred exercise types.
+3. The user inputs details:
+ - Time available (e.g., 15-minute break every 2 hours)
+ - Desired intensity level
+4. The system suggests a list of recommended exercises tailored to the user’s schedule (e.g., short cardio bursts, posture correction exercises, etc.).
+5. The user reviews and customizes the plan (adding/removing exercises, adjusting duration).
+6. The plan is saved to the user’s account, including recommended daily or weekly checkpoints.
+  
+![Workout Progress](Use_Case3.pdf).
+
+### **Use Case #4:** Weekly Progress Tracking and Gamification
+#### **Actor:** User, Developer
+#### **Trigger:** The user checks their “Progress” page on the website at the end of the week or after completing daily exercises.
+#### **Pre-conditions:** The user has created or selected a workout plan (See Use Case 2) or is tracking any fitness activity on the site.
+#### **Post-condition:** The user feels motivated to maintain or exceed their fitness routine for the next week.
+#### **Success Scenario:**  
+1. User navigates to the “Progress” page.
+2. The site (implemented by the Developer) fetches user’s logged activities (exercises done, workout duration, frequency).
+3. The system calculates weekly progress (e.g., total minutes exercised, streaks maintained).
+4. The user is awarded gamified points (e.g., XP) or a new badge if a milestone is reached (e.g., exercising 3 days in a row).
+5. The progress page updates with a dynamic progress bar, badges, and possibly a place on a leaderboard among other users.
+  
+![Workout Progress](Use-Case2.pdf).
+
+### **Use Case #5:** Create an account  
 #### **Actor:** User   
 #### **Trigger:**  User decides to create an account  
 #### **Pre-conditions:** User has a valid email they can access    
@@ -130,7 +175,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 3. User is shown requirements for passwords  
 4. User is asked to try again  
 
-### **Use Case #3:** User chooses which workouts they want to do today  
+### **Use Case #6:** User chooses which workouts they want to do today  
 #### **Actor:** User   
 #### **Trigger:** User starts a workout  
 #### **Pre-conditions:**  User is logged in   
