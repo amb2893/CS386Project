@@ -37,6 +37,9 @@ Consumer segment: Gamers who sit at desks the majority of their day.
   
 ### Validation & Testing Approach:
 
+* We can test the friendliness  of the workout by asking for instant feedback based on the amount of time given to do a certain amount of an exercise.
+* User data will show activity on the website. As well as the personalization aspect of users.
+* Manual testing on login and signup functionality.
 
 ## 6. Use cases
 
