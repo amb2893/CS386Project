@@ -18,9 +18,20 @@ Consumer segment: Gamers who sit at desks the majority of their day.
 
 
 
-## 3. Functional requirements (features)
+## 3. Functional requirements (features)  
 
-
+1. User registration and login  
+2. Game integration for downtime workouts  
+3. Exercise recognition and login  
+4. Customizable workout plans  
+5. Rewarding and achievements system  
+6. Quick workout mode  
+7. Reminders and scheduling  
+8. Progress tracking  
+9. Calorie tracking  
+10. Privacy and security  
+11. Accessibility features  
+12. Support and help center  
 
 ## 4. Non-functional requirements
 
