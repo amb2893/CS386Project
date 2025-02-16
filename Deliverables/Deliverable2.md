@@ -16,7 +16,11 @@ Consumer segment: Gamers who sit at desks the majority of their day.
 
 ## 2. Stakeholders
 
+Users: Casual gamers are the main audience for this website and they are who will be using the website to produce workouts and track their fitness.
 
+Developers: As the developers we are in charge of building this website and taking feedback from users to continually update and improve the website.
+
+Competitors: There are other apps and websites like GetUp that track workouts and they want the majority of market share and profit off of people aspiring to get in shape as well.
 
 ## 3. Functional requirements (features)  
 
@@ -80,6 +84,72 @@ Consumer segment: Gamers who sit at desks the majority of their day.
 * Manual testing on login and signup functionality.
 
 ## 6. Use cases
+### **Use Case #1:** Log in to the website  
+#### **Actor:** User   
+#### **Trigger:** User decides to log in to the website  
+#### **Pre-conditions:**    
+1.User already has an account.  
+2.User knows their account credentials.  
+#### **Post-condition:** User is logged into their account.  
+#### **Success Scenario:**  
+1. User initiates request.  
+2. Input credentials are validated.  
+3. User is given access to their account.  
+#### **Alternate Scenario #1:**  
+1. User does not have a account.  
+2. Application informs user of failure.  
+3. Application asks user to try again or create an account.  
+4. Application offers to reset their password.  
+#### **Alternate Scenario #2:**  
+1. User input the wrong credentials  
+2. Application informs user of failure.  
+3. Application asks user to try again or create an account.  
+4. Application offers to reset their password.
+
+![Sign In User Template](D.2-Pictures/Use-Case-1.PNG)
+
+### **Use Case #2:** Create an account  
+#### **Actor:** User   
+#### **Trigger:**  User decides to create an account  
+#### **Pre-conditions:** User has a valid email they can access    
+#### **Post-condition:** User has an account they can access at any time  
+#### **Success Scenario:**  
+1. User initiates request  
+2. User inputs a valid email and password
+3. User confirms email
+4. User is logged into their account
+  
+#### **Alternate Scenario #1:**  
+1. User does not input a valid email  
+2. User is informed of failure  
+3. User is asked to try again  
+ 
+#### **Alternate Scenario #2:**  
+1. User does not input a valid password  
+2. User is informed of failure  
+3. User is shown requirements for passwords  
+4. User is asked to try again  
+
+### **Use Case #3:** User chooses which workouts they want to do today  
+#### **Actor:** User   
+#### **Trigger:** User starts a workout  
+#### **Pre-conditions:**  User is logged in   
+#### **Post-condition:** User is logged into their account.  
+#### **Success Scenario:**    
+1. User accesses website   
+2. Application provides user with a list of workouts to do that day  
+3. User selects a plan for the day  
+4. User confirms selection  
+5. Application saves user selection  
+
+#### **Alternate Scenario #1:**  
+1. User does not select a plan.  
+2. User is informed of failure.  
+3. User is asked to pick a plan.  
+ 
+
+
+
 
 
 ## 7. User stories
