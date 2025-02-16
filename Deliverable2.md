@@ -22,10 +22,12 @@
 
 ## 5. Minimum Viable Product
 
+
 ### MVP Feature:
 
 
 ### Validation & Testing Approach:
+
 
 ## 6. Use cases
 
