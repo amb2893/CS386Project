@@ -120,7 +120,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 4. The site’s stylesheet updates accordingly, changing colors, backgrounds, and text.
 5. If the user is logged in, the new theme preference is saved in their profile (so that it persists on the next visit).
   
-![Toggle template](Use_Case4.pdf).
+![Toggle template](D.2-Pictures/Use_Case4.pdf).
 
 ### **Use Case #3:** Personalized Workout Plan Setup
 #### **Actor:** User, Developer
@@ -137,7 +137,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 5. The user reviews and customizes the plan (adding/removing exercises, adjusting duration).
 6. The plan is saved to the user’s account, including recommended daily or weekly checkpoints.
   
-![Workout Progress](Use_Case3.pdf).
+![Workout Progress](D.2-Pictures/Use_Case3.pdf).
 
 ### **Use Case #4:** Weekly Progress Tracking and Gamification
 #### **Actor:** User, Developer
@@ -151,7 +151,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 4. The user is awarded gamified points (e.g., XP) or a new badge if a milestone is reached (e.g., exercising 3 days in a row).
 5. The progress page updates with a dynamic progress bar, badges, and possibly a place on a leaderboard among other users.
   
-![Workout Progress](Use-Case2.pdf).
+![Workout Progress](D.2-Pictures/Use-Case2.pdf).
 
 ### **Use Case #5:** Create an account  
 #### **Actor:** User   
