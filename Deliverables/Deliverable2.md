@@ -16,7 +16,11 @@ Consumer segment: Gamers who sit at desks the majority of their day.
 
 ## 2. Stakeholders
 
+Users: Casual gamers are the main audience for this website and they are who will be using the website to produce workouts and track their fitness.
 
+Developers: As the developers we are in charge of building this website and taking feedback from users to continually update and improve the website.
+
+Competitors: There are other apps and websites like GetUp that track workouts and they want the majority of market share and profit off of people aspiring to get in shape as well.
 
 ## 3. Functional requirements (features)  
 
