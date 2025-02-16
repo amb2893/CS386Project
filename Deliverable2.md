@@ -2,11 +2,11 @@
 
 ## 1. Introduction 
 
-###Problem statement
+### Problem statement
 
-###Product Position Statement
+### Product Position Statement
 
-###Value proposition and customer segment
+### Value proposition and customer segment
 
 
 ## 2. Stakeholders
@@ -23,10 +23,10 @@
 ## 5. Minimum Viable Product
 
 
-###MVP Feature:
+### MVP Feature:
 
 
-###Validation & Testing Approach:
+### Validation & Testing Approach:
 
 
 ## 6. Use cases
@@ -35,4 +35,4 @@
 ## 7. User stories
 
 
-##8. Issue Tracker
+## 8. Issue Tracker
