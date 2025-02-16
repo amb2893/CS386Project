@@ -106,6 +106,8 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 3. Application asks user to try again or create an account.  
 4. Application offers to reset their password.
 
+![Sign In User Template](D.2-Pictures/Use-Case-1.PNG)
+
 ### **Use Case #2:** Create an account  
 #### **Actor:** User   
 #### **Trigger:**  User decides to create an account  
