@@ -84,27 +84,27 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 * Manual testing on login and signup functionality.
 
 ## 6. Use cases
-**Use Case #1:** Log in to the website
-**Actor:** User 
-**Trigger:** User decides to log in to the website
-**Pre-conditions:** 
-1.User already has an account.
-2.User knows their account credentials.
-**Post-condition:** User is logged into their account.
-**Success Scenario:**
-1. User initiates request.
-2. Input credentials are validated.
-3. User is given access to their account.
-**Alternate Scenario #1:****
-1. User does not have a account.
-2. Application informs user of failure.
-3. Application asks user to try again or create an account.
-4. Application offers to reset their password.
-**Alternate Scenario #2:**
-User input the wrong credentials
-1. Application informs user of failure.
-2. Application asks user to try again or create an account.
-3. Application offers to reset their password.
+**Use Case #1:** Log in to the website  
+**Actor:** User   
+**Trigger:** User decides to log in to the website  
+**Pre-conditions:**   
+1.User already has an account.  
+2.User knows their account credentials.  
+**Post-condition:** User is logged into their account.  
+**Success Scenario:**  
+1. User initiates request.  
+2. Input credentials are validated.  
+3. User is given access to their account.  
+**Alternate Scenario #1:****  
+1. User does not have a account.  
+2. Application informs user of failure.  
+3. Application asks user to try again or create an account.  
+4. Application offers to reset their password.  
+**Alternate Scenario #2:**  
+User input the wrong credentials  
+1. Application informs user of failure.  
+2. Application asks user to try again or create an account.  
+3. Application offers to reset their password.  
 
 
 ## 7. User stories
