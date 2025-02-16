@@ -1,12 +1,23 @@
 body {
-    background-color: #f0f0f0; /* Light gray background */
-    color: #333; /* Dark text color for readability */
+    background-color: #272525; /* Dark gray background */
+
+    
+
+        
+
+}
+.text_family{
+    color: hsl(0, 0%, 100%); /* Dark text color for readability */
     font-family: "Times New Roman", serif;
-    font-size: 12pt;
+    font-size: 12pt; 
+    -webkit-text-stroke: 0.25px darkorchid;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #6a0dad; /* Purple text for headings */
+    -webkit-text-stroke: 1.2px darkorchid;
+
 }
 
 a {
@@ -31,7 +42,7 @@ button:hover {
 }
 
 header, footer {
-    background-color: #dcdcdc; /* Light gray background for header/footer */
+    background-color: #413c3c56; /*  gray background for header/footer */
     padding: 20px;
 }
 
