@@ -25,7 +25,11 @@
 
 ### MVP Feature:
 
-
+* Beginner Friendly workout: Different intensity of workouts allows for users new to workout.
+* Personalization: Create a login and sign up page for user personalization, allowing them to select workouts to fit their personal needs.
+* Reviews: Rate your workouts.
+* Progression tracker: Ability to see your progression, adding data such as weight.
+  
 ### Validation & Testing Approach:
 
 
