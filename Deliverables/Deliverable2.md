@@ -197,4 +197,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 11. As a parent, I want my child to stay active while gaming so that they don’t ruin their health from too much screen time. (5 hours)  
 12. As an avid Rust player, I want to build strength and endurance so that when hunting season comes around I will be in shape. (8 hours)  
 
-## 8. Issue Tracker
+## 8. Issue Tracker  
+
+![Issue Tracker](D.2-Pictures/section8.webp)  
+https://github.com/amb2893/CS386Project/issues
