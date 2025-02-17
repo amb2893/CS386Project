@@ -109,34 +109,42 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 ![Sign In User Template](D.2-Pictures/Use-Case-1.PNG)
 
-### **Use Case #2:** Personalized Workout Plan Setup
-#### **Actor:** User, Developer
-#### **Trigger:** The user selects “Create Workout Plan” in their profile dashboard.
-#### **Pre-conditions:** The user is registered on the website and is logged in. The workout plan feature is fully functional (implemented by the Developer).
+### **Use Case #2:** Personalized Workout Plan
+#### **Actor:** User
+#### **Trigger:** User decides to create a workout plan on the homepage.
+#### **Pre-conditions:** User is logged in
 #### **Post-condition:** The user’s personalized workout plan is stored in their profile. 
 #### **Success Scenario:**  
-1. User navigates to their dashboard and clicks “Create Workout Plan.”
-2. The system (developed by the Developer) presents a form asking for the user’s fitness goals, available time slots, and preferred exercise types.
-3. The user inputs details:
- - Time available (e.g., 15-minute break every 2 hours)
- - Desired intensity level
-4. The system suggests a list of recommended exercises tailored to the user’s schedule (e.g., short cardio bursts, posture correction exercises, etc.).
-5. The user reviews and customizes the plan (adding/removing exercises, adjusting duration).
-6. The plan is saved to the user’s account, including recommended daily or weekly checkpoints.
+1. User accesses website
+2. Application provides a form to input workouts with suggested workouts.
+3. The user inputs desired plan.
+4. Input is validated.
+5. User confirms selection.
+6. Application saves user selection
+
+#### **Alternate Scenario #1:**  
+1. User does not select a plan.
+2. User is informed of failure.
+3. User is asked to pick a plan.
   
 ![Workout Progress](D.2-Pictures/user_case_2.webp)
 
-### **Use Case #3:** Weekly Progress Tracking and Gamification
-#### **Actor:** User, Developer
-#### **Trigger:** The user checks their “Progress” page on the website at the end of the week or after completing daily exercises.
-#### **Pre-conditions:** The user has created or selected a workout plan (See Use Case 2) or is tracking any fitness activity on the site.
-#### **Post-condition:** The user feels motivated to maintain or exceed their fitness routine for the next week.
+### **Use Case #3:** Weekly Progress Tracking and Gamification  
+#### **Actor:** User  
+#### **Trigger:** The user checks their Progress page.   
+#### **Pre-conditions:**  
+1. User is logged in
+2. User has used the website to workout previously 
+#### **Post-condition:** User views their progress since their first time using the website.  
 #### **Success Scenario:**  
-1. User navigates to the “Progress” page.
-2. The site (implemented by the Developer) fetches user’s logged activities (exercises done, workout duration, frequency).
-3. The system calculates weekly progress (e.g., total minutes exercised, streaks maintained).
-4. The user is awarded gamified points (e.g., XP) or a new badge if a milestone is reached (e.g., exercising 3 days in a row).
-5. The progress page updates with a dynamic progress bar, badges, and possibly a place on a leaderboard among other users.
+1. User initiates request
+2. Users progress is displayed
+3. The application calculates and graphically displays the user's progress towards their current goal.
+
+#### **Alternate Scenario #1:**  
+1. User has not performed enough exercises to track progress
+2. User is informed of failure  
+3. User is asked to keep exercising until progress is available
   
 ![Workout Progress](D.2-Pictures/user_case_3.webp)
 
@@ -168,7 +176,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 #### **Actor:** User   
 #### **Trigger:** User starts a workout  
 #### **Pre-conditions:**  User is logged in   
-#### **Post-condition:** User is logged into their account.  
+#### **Post-condition:** Daily plan is saved into user's account.  
 #### **Success Scenario:**    
 1. User accesses website   
 2. Application provides user with a list of workouts to do that day  
@@ -229,10 +237,4 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 ![Issue Tracker](D.2-Pictures/section8.webp)  
 https://github.com/amb2893/CS386Project/issues
 
-## Teamwork
-#### Franz (16%)  – Focused on the Minimum Value Product, committed to github, helped teammates develop the work for their sections
-#### Anthony (17%) - Focused on sections 1 and 7, committed to GitHub, helped teammates develop the work for their sections
-#### Jalen (17%) - Focused on sections 4, 7, and 8, helped teammates develop the work for their sections
-#### Luke (16%) - Focused on section 6, did 2 use cases and the UML diagram, helped teammates develop the work for their sections
-#### Mayanna (17%) Focused on sections 3 and 7, helped teammates develop the work for their sections
-#### Preston (17%) - Focused on sections 2 and 4 Use Cases, commited to GitHub, helped teammates develop the work for their sections
+
