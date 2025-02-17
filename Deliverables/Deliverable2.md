@@ -84,6 +84,9 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 * Manual testing on login and signup functionality.
 
 ## 6. Use cases
+## UML DIAGRAM
+![UML DIAGRAM](D.2-Pictures/Screenshot (6).png)
+
 ### **Use Case #1:** Log in to the website  
 #### **Actor:** User   
 #### **Trigger:** User decides to log in to the website  
