@@ -84,6 +84,7 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 * Manual testing on login and signup functionality.
 
 ## 6. Use cases
+
 ### **Use Case #1:** Log in to the website  
 #### **Actor:** User   
 #### **Trigger:** User decides to log in to the website  
@@ -161,6 +162,8 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 3. User is shown requirements for passwords  
 4. User is asked to try again  
 
+![Use Case 4](D.2-Pictures/Use-Case-4.PNG)
+
 ### **Use Case #5:** User chooses which workouts they want to do today  
 #### **Actor:** User   
 #### **Trigger:** User starts a workout  
@@ -177,9 +180,33 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 1. User does not select a plan.  
 2. User is informed of failure.  
 3. User is asked to pick a plan.  
- 
 
+ ![Use Case 5](D.2-Pictures/Use-Case-5.PNG)
 
+### **Use Case #6:** Game Stats Input  
+#### **Actor:** User   
+#### **Trigger:** User Finshes a match in a game  
+#### **Pre-conditions:**      
+1. User is logged in    
+2. User has selected a workout regiment for the day    
+#### **Post-condition:** A workout is generated based off of game stats.    
+#### **Success Scenario:**    
+1. User initiates request  
+2. User inputs their chosen stat from the game they are playing  
+3. A workout is generated based on their selected regiment for the day  
+4. User performs the exercise  
+5. Exercise is tracked on users profile  
+
+#### **Alternate Scenario #1:**    
+1. User inputs invalid or nothing is input  
+2. User is informed of failure  
+3. User is asked to try again  
+
+![Use Case 6](D.2-Pictures/Use-Case-6.PNG)
+
+## UML Diagram
+
+![UML Diagram](D.2-Pictures/UML-Diagram.PNG)
 
 
 
@@ -201,3 +228,11 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 ![Issue Tracker](D.2-Pictures/section8.webp)  
 https://github.com/amb2893/CS386Project/issues
+
+## Teamwork
+#### Franz (16%)  – Focused on the Minimum Value Product, committed to github, helped teammates develop the work for their sections
+#### Anthony (17%) - Focused on sections 1 and 7, committed to GitHub, helped teammates develop the work for their sections
+#### Jalen (17%) - Focused on sections 4, 7, and 8, helped teammates develop the work for their sections
+#### Luke (16%) - Focused on section 6, did 2 use cases and the UML diagram, helped teammates develop the work for their sections
+#### Mayanna (17%) Focused on sections 3 and 7, helped teammates develop the work for their sections
+#### Preston (17%) - Focused on sections 2 and 4 Use Cases, commited to GitHub, helped teammates develop the work for their sections
