@@ -223,3 +223,11 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 ![Issue Tracker](D.2-Pictures/section8.webp)  
 https://github.com/amb2893/CS386Project/issues
+
+## Teamwork
+### Franz (16%)  – Focused on the Minimum Value Product, committed to github, helped teammates develop the work for their sections
+### Anthony (17%) - Focused on sections 1 and 7, committed to GitHub, helped teammates develop the work for their sections
+### Jalen (17%) - Focused on sections 4, 7, and 8, helped teammates develop the work for their sections
+### Luke (16%) - Focused on section 6, did 2 use cases and the UML diagram, helped teammates develop the work for their sections
+### Mayanna (17%) Focused on sections 3 and 7, helped teammates develop the work for their sections
+### Preston (17%) - Focused on sections 2 and 4 Use Cases, commited to GitHub, helped teammates develop the work for their sections
