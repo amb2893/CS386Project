@@ -206,6 +206,10 @@ Competitors: There are other apps and websites like GetUp that track workouts an
 
 ![Use Case 6](D.2-Pictures/Use-Case-6.PNG)
 
+## UML Diagram
+
+![UML Diagram](D.2-Pictures/uml.PNG)
+
 
 
 ## 7. User stories
