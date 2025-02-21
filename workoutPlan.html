@@ -18,41 +18,56 @@
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
         h1 {
             text-align: center;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .workout-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
         }
-        li {
+
+        .workout-buttons button {
             background: #ddd;
-            margin: 10px 0;
             padding: 10px;
+            border: none;
             border-radius: 5px;
             cursor: pointer;
-            text-align: center;
+            font-size: 16px;
         }
-        li:hover {
+
+        .workout-buttons button:hover {
             background: #bbb;
         }
+
+        a.back {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: blue;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Choose Todays Workout</h1>
-        <ul>
-            <li>Bodyweight Full-Body Workout</li>
-            <li>Cardio Blast</li>
-            <li>Strength Training with Dumbbells</li>
-            <li>Pushups A Lot of Them</li>
-            <li>Core & Abs Burner</li>
-            <li>Lower Body </li>
-            <li>Stretch & Mobility Routine</li>
-	    <li>Custom</li>
-        </ul>
-	<a href="index.html">Back to Home</a>
+        <div class ="workout-buttons">
+            <button onclick="selectWorkout('Bodyweight Full-Body Workout')">Bodyweight Full-Body Workout</button>
+            <button onclick="selectWorkout('Cardio Blast')">Cardio Blast</button>
+            <button onclick="selectWorkout('Strength Training with Dumbbells')">Strength Training with Dumbbells</button>
+            <button onclick="selectWorkout('Pushups A Lot of Them')">Pushups A Lot of Them</button>
+            <button onclick="selectWorkout('Core & Abs Burner')">Core & Abs Burner</button>
+            <button onclick="selectWorkout('Lower Body')">Lower Body </button>
+            <button onclick="selectWorkout('Stretch & Mobility Routine')">Stretch & Mobility Routine</button>
+            <button onclick="customWorkout()">Custom</button>
+        </div>
+	    <a href="index.html">Back to Home</a>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
