@@ -8,3 +8,4 @@ function customWorkout() {
         alert("You created: " + workout);
     }
 }
+// Code for bodytest.html
