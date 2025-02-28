@@ -6,6 +6,8 @@ body {
   font-family: "Times New Roman", serif;
   font-size: 12pt;
   -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+  text-align: center;
+
 }
 
 a {
@@ -53,6 +55,10 @@ ul {
 }
 
 .feature {
+  color: hsla(0, 0%, 100%, 0.778); /* Dark text color for readability */
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  -webkit-text-stroke: 0.3px rgb(112, 34, 151);
   text-align: center;
 }
 
@@ -61,7 +67,8 @@ ul {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  background-color: #413c3c56;
+  background-color: #272525;
+
 }
 
 .box {
@@ -102,3 +109,40 @@ ul {
 .questionsButtons button {
   border-radius: 17%;
 }
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  overflow: hidden;
+}
+
+.li_list {
+  float: left;
+}
+
+.li_a {
+  display: block;
+  padding: 8px;
+  background-color: #272525;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.778);
+  -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+}
+
+.li_a:hover {
+  background-color: #413c3c56;
+}
+
+.nav_horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.size_title {
+  font-size: 45px;
+}
+.size_sub_title {
+  font-size: 30px;
+}
+
