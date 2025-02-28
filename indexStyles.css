@@ -55,7 +55,10 @@ ul {
 }
 
 .feature {
-
+  color: hsla(0, 0%, 100%, 0.778); /* Dark text color for readability */
+  font-family: "Times New Roman", serif;
+  font-size: 12pt;
+  -webkit-text-stroke: 0.3px rgb(112, 34, 151);
   text-align: center;
 }
 
