@@ -8,4 +8,4 @@ When a **gamer** registers for the Gamer Workout Hub, they must provide their _u
 
 
 ## Model
-![Model](D.3-Pictures/Model.PNG)
+![Model](D-3-Pictures/Model.PNG)
