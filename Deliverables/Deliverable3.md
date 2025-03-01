@@ -1,3 +1,6 @@
 # Software Inception Report  
 
 ## System Description
+The Gaming Workout Hub is a website that allows gamers to monitor their workouts and hold themselves accountable. The problem of not moving much while playing games affects people who play games the majority of the day; the impact of which is unhealthy life habits and an unhealthy body. The Gaming Workout Hub is a website that tells users when it's time to get up and be active; unlike GetUp! Our product allows users the flexibility and customization of their workout plan. Workout Gaming Hub is an exercise website that allows gamers to exercise while gaming at a desk, prioritizing customizability and tracking features based on the user.
+
+Our website catters a variety of users, from casual gamers to the most hardcore gamers. We provide a service that will benefit them all. Gaming Workout Hub allows any person to enjoy video games while also staying fit and healthy. Our service allows users to log in and track their fitness journey while also making it convenient for them to use while playing games. Our website will track the users journey and allow them to customize their experience with working out depending on the games they play.
