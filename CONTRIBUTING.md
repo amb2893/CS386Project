@@ -1,7 +1,7 @@
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [CODE_OF_CONDUCT.md], please follow it in all your interactions with the project.
+Please note we have a [CODE_OF_CONDUCT.md](https://github.com/amb2893/CS386Project/blob/testHTML/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
 ## Pull Request Process
 
