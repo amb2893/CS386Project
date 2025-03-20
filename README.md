@@ -18,7 +18,7 @@ Welcome to **Gaming Workout Hub** – the perfect balance between gaming and fit
 
 
 # Contributing
-Read the [CONTRIBUTING.md]() for information on code of contributing and our code of conduct.
+Read the [CONTRIBUTING.md](https://github.com/amb2893/CS386Project/blob/testHTML/CONTRIBUTING.md) for information on code of contributing and our code of conduct.
 
 # Authors
  - Anthony Birk
