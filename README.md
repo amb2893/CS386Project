@@ -2,35 +2,33 @@
 
 Welcome to **Gaming Workout Hub** – the perfect balance between gaming and fitness! Our website is designed for gamers who want to stay active while playing their favorite video games. Whether you're looking for quick exercises between matches or a structured workout plan that fits your gaming routine, we've got you covered.
 
-## Features
+# Getting Started
+ These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-- **Quick Break Workouts** – Short, effective exercises to do between gaming sessions.
-- **Custom Workout Plans** – Tailored fitness routines based on the games you play.
-- **Health Tips for Gamers** – Advice on posture, eye strain, and hydration.
-- **Progress Tracking** – Log your workouts and track your fitness progress.
+## Prerequisites
+1. IDE sofeware
 
-## How It Works
-1. Get recommended workouts based on your play style and game type.
-2. Follow guided exercises during breaks.
-3. Track your progress and stay motivated.
 
-## Why Use Gaming Workout Hub?
+## Installing
+1. Download repository's ZIP folder from main branch. 
+2. Extract contents and open is you IDE software
 
-- **Stay Healthy** – Reduce the risks of prolonged sitting and inactivity.
-- **Enhance Focus** – Short workouts improve blood circulation and mental alertness.
-- **Boost Energy** – Exercise can increase stamina and gaming performance.
-- **Fun & Engaging** – Workouts designed to keep you active without disrupting your gaming experience.
+# Built With
+ - Visual Studio Code
 
-## Contributors
 
-- Anthony Birk
-- Franz Mischke
-- Preston Smith
-- Luke Shahan
-- Mayanna John
-- Jalen Jensen
+# Contributing
+Read the [CONTRIBUTING.md]() for information on code of contributing and our code of conduct.
 
-## Getting Started
+# Authors
+ - Anthony Birk
+ - Franz Mischke
+ - Preston Smith
+ - Luke Shahan
+ - Mayanna John
+ - Jalen Jensen
 
-Visit our website to start your gaming workout journey today!
+
+# License
+View the [LICENSE.md](https://github.com/amb2893/CS386Project/blob/testHTML/LICENSE) for more information regarding license.
 
