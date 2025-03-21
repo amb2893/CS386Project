@@ -23,6 +23,15 @@ https://help.github.com/articles/about-pull-requests/Links to an external site.
 
 Grading criteria (8 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
 
+
+
+Requirement As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing.
+Issue: https://github.com/amb2893/CS386Project/issues/38 
+Pull request: https://github.com/amb2893/CS386Project/pull/63 
+Implemented by: Anthony Birk 
+Approved by: Preston Smith 
+Print Screen:
+
 ## Tests
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
