@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="indexStyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Alarm & To-Do List</title>
+    <style>
+        .todo-list {
+            margin-top: 20px;
+        }
+        .todo-item {
+            margin-bottom: 10px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+ <div class="workout-selection-container">
+      <div class="text_family">
+        <h2>Exercise Alarm & To-Do List</h2>
+	<a href="index.html">Home</a>
+        <!-- Alarm Section -->
+        <h3>Set Alarm</h3>
+        <label for="alarmTime">Set Alarm Time (in minutes):</label>
+        <input type="number" id="alarmTime" min="1">
+	<br>
+        <label for="alarmName">Exercise Name:</label>
+        <input type="text" id="alarmName">
+	<br><br>
+        <button class="alarmButton" onclick="setAlarm()">Set Alarm</button>
+
+        <h3>Alarm Status:</h3>
+        <p id="alarmStatus">No alarm set.</p>
+
+        <!-- To-Do List Section -->
+        <h3>To-Do List</h3>
+        <label for="exerciseName">Exercise Name:</label>
+        <input type="text" id="exerciseName">
+	<br><br>
+        <button class="alarmButton" onclick="addExercise()">Add Exercise</button>
+
+        	<div class="todo-list" id="todoList">
+            <!-- To-Do items will appear here -->
+		</div>
+        </div>
+    </div>
+
+   <script>
+	let alarmTimeout;
+	let alarmInterval;
+	let alarmName = "";
+	let alarmTime = 0;
+
+	function setAlarm() 
+	{
+    		const time = parseInt(document.getElementById('alarmTime').value);
+    		const name = document.getElementById('alarmName').value;
+    		if (time && name) 
+    		{
+        		alarmTime = time * 60000; // convert minutes to milliseconds
+        		alarmName = name;
+        
+        		clearTimeout(alarmTimeout);
+        		clearInterval(alarmInterval);
+        
+        		let remainingTime = alarmTime;
+        
+        		alarmInterval = setInterval(() => {
+            		const minutes = Math.floor(remainingTime / 60000);
+            		const seconds = Math.floor((remainingTime % 60000) / 1000);
+            		document.getElementById('alarmStatus').textContent = `Time remaining: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+            
+            		if (remainingTime <= 0) 
+			{
+                		clearInterval(alarmInterval);
+                		alert(`Time to do your exercise: ${alarmName}!`);
+                		document.getElementById('alarmStatus').textContent = `Alarm went off! Time to do: ${alarmName}`;
+            		}
+            		remainingTime -= 1000;
+        		}, 1000); // update every second
+        
+    		} 
+    		else 
+    		{
+        		alert("Please enter both time and exercise name.");
+    		}
+	}
+        function addExercise() 
+        {
+            	const exerciseName = document.getElementById('exerciseName').value;
+            	if (exerciseName) 
+		{
+                	const todoList = document.getElementById('todoList');
+                	const todoItem = document.createElement('div');
+                	todoItem.classList.add('todo-item');
+                	todoItem.innerHTML = `
+                    	<input type="checkbox" onclick="toggleCheck(this)">
+                    	<span>${exerciseName}</span>
+                	`;
+                	todoList.appendChild(todoItem);
+                	document.getElementById('exerciseName').value = "";
+            	} 
+		else 
+		{
+                alert("Please enter an exercise name.");
+            	}
+        }
+
+        function toggleCheck(checkbox) 
+	{
+        	const item = checkbox.parentElement;
+            	if (checkbox.checked) 
+		{
+                	item.style.textDecoration = "line-through";
+            	} 
+		else 
+		{
+                	item.style.textDecoration = "none";
+            	}
+        }
+    </script>
+</body>
+</html>
