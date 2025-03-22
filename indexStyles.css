@@ -53,7 +53,7 @@ button, .selectButton {
   font-size: 20px; 
   cursor: pointer;
 }
-button, 
+
 
 button:hover {
   background-color: #8a2be2; /* Lighter purple on hover */
