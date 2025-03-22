@@ -175,6 +175,16 @@ ul {
   font-size: 30px;
 }
 
+.submitTest{
+    text-align: right;
+    .submitTestButton{
+      border-radius: 16px;
+      padding: 8px;
+    }
+  }
+  
+
+
 .workout-buttons {
   display: flex;
   flex-direction: column;
