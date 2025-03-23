@@ -9,7 +9,7 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 - Issue: https://github.com/amb2893/CS386Project/issues/66
 - Pull request: https://github.com/amb2893/CS386Project/pull/65
     - Implemented by: Luke Shahan / Preston Smith
-    - Approved by: @prestonimus approved this pull request.
+    - Approved by: Preston Smith
 
 Print screen: 
 ![Model](D-4_Pictures/InformationTestPic.png)
@@ -23,6 +23,27 @@ Print screen:
   
 Print Screen:
 ![Model](D-4_Pictures/CustomAlarmTodoPage.png)
+
+#### Requirement
+> Requirement: "As a gamer, I want to be able to look at a aesthetic website so that it is easy to nagigate and understand what is what."
+- Issue: https://github.com/amb2893/CS386Project/issues/20
+- Pull request: https://github.com/amb2893/CS386Project/pull/75
+    - Implemented by: Franz Mischke
+    - Approved by: Anthony Birk
+
+Print screen: 
+![Model](D-4_Pictures/issue_fix_20.png)
+  
+#### Requirement
+> Requirement: "As a gamer, I want to be able to hear an audio cue so that I know when to stop working out to get back to playing games."
+- Issue: [https://github.com/amb2893/CS386Project/issues/68](https://github.com/amb2893/CS386Project/issues/68)
+- Pull request: 
+    - Implemented by: Jalen Jensen
+    - Approved by:
+  
+Print Screen:  
+![Model](D-4_Pictures/soundCueRequirement.png)
+
 ## Tests
 **Test Framework:** pytest - checks through HTML file to check everything is created  
   
