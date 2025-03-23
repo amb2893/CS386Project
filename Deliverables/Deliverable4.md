@@ -23,6 +23,16 @@ Print screen:
   
 Print Screen:
 ![Model](D-4_Pictures/CustomAlarmTodoPage.png)
+
+#### Requirement
+> Requirement: "As a gamer, I want to be able to look at a aesthetic website so that it is easy to nagigate and understand what is what."
+- Issue: https://github.com/amb2893/CS386Project/issues/20
+- Pull request: https://github.com/amb2893/CS386Project/pull/75
+    - Implemented by: Franz Mischke
+    - Approved by: Anthony Birk
+
+Print screen: 
+![Model](D-4_Pictures/issue_fix_20.png)
 ## Tests
 **Test Framework:** pytest - checks through HTML file to check everything is created  
   
