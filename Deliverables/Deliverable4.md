@@ -9,18 +9,20 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 - Issue: https://github.com/amb2893/CS386Project/issues/66
 - Pull request: https://github.com/amb2893/CS386Project/pull/65
     - Implemented by: Luke Shahan / Preston Smith
-    - Approved by: blank
+    - Approved by: @prestonimus approved this pull request.
 
 Print screen: 
 ![Model](D-4_Pictures/InformationTestPic.png)
 
-Requirement As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing.
-Issue: https://github.com/amb2893/CS386Project/issues/38 
-Pull request: https://github.com/amb2893/CS386Project/pull/63 
-Implemented by: Anthony Birk 
-Approved by: Preston Smith 
+#### Requirement
+> Requirement: "As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing."
+- Issue: https://github.com/amb2893/CS386Project/issues/38 
+- Pull request: https://github.com/amb2893/CS386Project/pull/63 
+    - Implemented by: Anthony Birk 
+    - Approved by: Preston Smith
+  
 Print Screen:
-
+![Model](D-4_Pictures/CustomAlarmTodoPage.png)
 ## Tests
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
@@ -29,7 +31,11 @@ An example of a test case. Include in your answer a GitHub link to the class bei
 A print screen showing the result of the execution of the automated tests. 
 Grading criteria (3 points): You should have an adequate number of automated tests. They should be well-written to exercise the main components of your system, covering the relevant inputs.
 
-## Technology
+## Technology  
+* HTML/CSS – Building & styling  
+* JavaScript – Functionality  
+* Discord – Communication  
+* GitHub – Tracking & managing  
 List the adopted technologies with a brief description and justification for choosing them.
 
 Grading criteria (1 point): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, and adequate use of language.
@@ -49,11 +55,10 @@ Grading criteria (3 points): This section will be graded based on the adequate u
 We have selected to use the MIT License for our source code because it allow contributors or users to use and or modify our source code. That is if and only if they include the original copyright notice.
 
 ## Readme File
-You should also prepare your repository for receiving new contributors. You should prepare a Readme.md file. See an example at https://gist.github.com/PurpleBooth/109311bb0361f32d87a2   In the Readme file, the current version should be stated. You should follow the Semantic Versioning schema (https://semver.org/). Tag the GitHub repository accordingly (https://git-scm.com/book/en/v2/Git-Basics-Tagging). 
+
+Link to Readme File: https://github.com/amb2893/CS386Project/blob/main/README.md
 
 Your repository should contain a CONTRIBUTING.md file, a LICENSE file, and a CODE_OF_CONDUCT.md file. Search online for some examples of these files. In this section of the deliverable, put links to these files on GitHub.
-
-Grading criteria (3 points): This section will be based on the presence and quality of the information presented in the files.
 
 ## UX Design
 Describe the approach you adopted to design your user interface. Include some screenshots.
