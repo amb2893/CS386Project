@@ -9,7 +9,7 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 - Issue: https://github.com/amb2893/CS386Project/issues/66
 - Pull request: https://github.com/amb2893/CS386Project/pull/65
     - Implemented by: Luke Shahan / Preston Smith
-    - Approved by: blank
+    - Approved by: @prestonimus approved this pull request.
 
 Print screen: 
 ![Model](D-4_Pictures/InformationTestPic.png)
