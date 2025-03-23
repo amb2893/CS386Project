@@ -22,7 +22,7 @@ Print screen:
     - Approved by: Preston Smith
   
 Print Screen:
-
+![Model](D-4_Pictures/CustomAlarmTodoPage.png)
 ## Tests
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
