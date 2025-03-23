@@ -24,15 +24,38 @@ Print screen:
 Print Screen:
 ![Model](D-4_Pictures/CustomAlarmTodoPage.png)
 ## Tests
-![TestPics](D-4_Pictures/testingpic1.png)  
-Testing Results for HTML Code  
+**Test Framework:** pytest - checks through HTML file to check everything is created  
   
-![TestPics](D-4_Pictures/testingpic2.png)
-Test 1: Check to see if the header exists  
-Test 2: CHeck to see if all questions exist  
+**Example test case:** The following is an automated test that parses through an HTML file, looks for associated class variables, and makes sure that all classes are available and exist. If everything exists and is within the HTML file, it will return a success.  
+  
+**GitHub Automated Test File:** [GitHub](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_html.py)  
 
+The test should run as follows:  
+1. Loads HTML content from file (also checks to see if file exists)
+2. Tests if the title is correct
+3. Tests if the header exists
+4. Tests if questions exists
+5. Tests if all button classes exist
+6. Test if you can submit
+7. Sees if stylesheet is implemented correctly
+8. Checks if there is a script file
+9. Exits  
+  
+### Tests 1 & 2:  
+![TestPics](D-4_Pictures/testingpic2.png)  
+  
+### Tests 3 & 4:  
+![TestPics](D-4_Pictures/testingpic4.png)
+  
+### Tests 5:  
 ![TestPics](D-4_Pictures/testingpic3.png)  
-Test 3: Test if all button classes exist  
+  
+### Tests 6-9:  
+![TestPics](D-4_Pictures/testingpic5.png)  
+  
+### Results:  
+![TestPics](D-4_Pictures/testingpic1.png)  
+
 
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
