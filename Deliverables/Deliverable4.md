@@ -145,5 +145,3 @@ For our team's first release, we learned that we need to communicate better with
 Include a link to a video showing the system working.
 
 Grading criteria (5 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and the quality of the developed system from the external point of view (user interface).
-
-## Teamwork
