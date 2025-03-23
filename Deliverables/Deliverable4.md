@@ -110,7 +110,6 @@ We have selected to use the MIT License for our source code because it allow con
 
 Link to Readme File: https://github.com/amb2893/CS386Project/blob/main/README.md
 
-Your repository should contain a CONTRIBUTING.md file, a LICENSE file, and a CODE_OF_CONDUCT.md file. Search online for some examples of these files. In this section of the deliverable, put links to these files on GitHub.
 
 ## UX Design
 Describe the approach you adopted to design your user interface. Include some screenshots.
