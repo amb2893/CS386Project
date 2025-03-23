@@ -46,9 +46,7 @@ Grading criteria (3 points): You should have an adequate number of automated tes
 * JavaScript – Functionality  
 * Discord – Communication  
 * GitHub – Tracking & managing  
-List the adopted technologies with a brief description and justification for choosing them.
-
-Grading criteria (1 point): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, and adequate use of language.
+* Neocities – Web hosting  
 
 ## Deployment
 Provide a link for the system in production and describe how you are deploying your system. 
