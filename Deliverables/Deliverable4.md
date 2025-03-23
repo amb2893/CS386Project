@@ -15,7 +15,7 @@ Print screen:
 ![Model](D-4_Pictures/InformationTestPic.png)
 
 #### Requirement
-> Requirement As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing.
+> Requirement: "As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing."
 - Issue: https://github.com/amb2893/CS386Project/issues/38 
 - Pull request: https://github.com/amb2893/CS386Project/pull/63 
     - Implemented by: Anthony Birk 
