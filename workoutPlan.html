@@ -1,73 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>At-Home Workouts</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-        }
-        .workout-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            align-items: center;
-        }
-
-        .workout-buttons button {
-            background: #ddd;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .workout-buttons button:hover {
-            background: #bbb;
-        }
-
-        a.back {
-            display: block;
-            margin-top: 20px;
-            text-decoration: none;
-            color: blue;
-        }
-
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Choose Todays Workout</h1>
-        <div class ="workout-buttons">
-            <button onclick="selectWorkout('Bodyweight Full-Body Workout')">Bodyweight Full-Body Workout</button>
-            <button onclick="selectWorkout('Cardio Blast')">Cardio Blast</button>
-            <button onclick="selectWorkout('Strength Training with Dumbbells')">Strength Training with Dumbbells</button>
-            <button onclick="selectWorkout('Pushups A Lot of Them')">Pushups A Lot of Them</button>
-            <button onclick="selectWorkout('Core & Abs Burner')">Core & Abs Burner</button>
-            <button onclick="selectWorkout('Lower Body')">Lower Body </button>
-            <button onclick="selectWorkout('Stretch & Mobility Routine')">Stretch & Mobility Routine</button>
-            <button onclick="customWorkout()">Custom</button>
-        </div>
-	    <a href="index.html">Back to Home</a>
+    <link rel="stylesheet" href="indexStyles.css" />
+  </head>
+  <body>
+    <div class="workout-selection-container">
+      <div class="text_family">
+        <h1 class="size_title">Choose Todays Workout</h1>
+        <h2 class="size_sub_title">
+          Choose from preselected workouts, <br />
+          or create your own!
+        </h2>
+      </div>
+      <div class="workout-buttons">
+        <button class="big-button" onclick="confirmQuestion(bodyweight)">
+          Bodyweight Full-Body Workout
+        </button>
+        <button class="big-button" onclick="confirmQuestion(cardio)">
+          Cardio Blast
+        </button>
+        <button class="big-button" onclick="confirmQuestion(strength)">
+          Strength Training with Dumbbells
+        </button>
+        <button class="big-button" onclick="confirmQuestion(pushups)">
+          Pushups... A Lot of Them
+        </button>
+        <button class="big-button" onclick="confirmQuestion(core)">
+          Core & Abs Burner
+        </button>
+        <button class="big-button" onclick="confirmQuestion(lower)">
+          Lower Body
+        </button>
+        <button class="big-button" onclick="confirmQuestion(stretch)">
+          Stretch & Mobility Routine
+        </button>
+        <button class="big-button" onclick="confirmQuestion(custom)">
+          Custom
+        </button>
+      </div>
+      <br />
+      <a href="index.html">Back to Home</a>
     </div>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
