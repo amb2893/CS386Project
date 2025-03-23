@@ -211,6 +211,11 @@ function interval() {
   pageTransition(title, subtitle, html);
 }
 
+function playSound() {
+  const sound = new Audio('timerEndSound.mp3');
+  sound.play();
+}
+
 function startTimer(type, finishEvent, customTime = 10) {
   function tick() {
     const min = String(Math.trunc(time / 60)).padStart(1, 0);
@@ -221,6 +226,7 @@ function startTimer(type, finishEvent, customTime = 10) {
 
     // when 0 seconds, stop times and log out user
     if (time === 0) {
+      playSound();
       clearInterval(timer);
       if (finishEvent) {
         finishEvent();
