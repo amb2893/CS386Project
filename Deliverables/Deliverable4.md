@@ -117,7 +117,6 @@ Describe the approach you adopted to design your user interface. Include some sc
 Grading criteria (3 points): This section will be graded based on the appearance (aesthetics) and usability (ease of use) of the system.
 
 ## Lessons Learned
-In retrospect, describe what your team learned during this first release and what you are planning to change for the second release. 
 For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.
 
 ## Demo
