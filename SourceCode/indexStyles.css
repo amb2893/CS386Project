@@ -10,9 +10,8 @@ body {
   text-align: center;
 }
 
-
 a {
-  color: #caadea; /* BLUE to be lighter than background links */
+  color: #00eaff; /* BLUE to be lighter than background links */
   text-decoration: none;
 }
 
@@ -65,7 +64,6 @@ button:hover {
   background-color: #a65fee;
 }
 
-
 header,
 footer {
   background-color: #413c3c56; /*  gray background for header/footer */
@@ -89,7 +87,7 @@ ul {
 .feature {
   color: hsla(0, 0%, 100%, 0.778); /* Dark text color for readability */
   font-family: "Times New Roman", serif;
-  font-size: 16pt;
+  font-size: 12pt;
   -webkit-text-stroke: 0.3px rgb(112, 34, 151);
   text-align: center;
 }
@@ -105,7 +103,7 @@ ul {
 .box {
   width: 150px;
   height: 150px;
-  background-color: #6a0dad;
+  background-color: #413c3c56;
   color: white;
   display: flex;
   align-items: center;
@@ -116,10 +114,7 @@ ul {
 
 .welcome {
   text-align: center;
-  background-color: #413c3c56;
-  padding: 2%;
 }
-
 
 /* Styles for bodyTest.html -> */
 .bodyTestHeader {
@@ -131,7 +126,8 @@ ul {
   padding: 30px;
 }
 .testQuestions {
-  background-color: rgba(217, 229, 239, 0.297);
+  background-color: #413c3c56;
+  border-radius: 10px;
   padding: 20px;
 }
 .questionsButtons {
@@ -143,6 +139,8 @@ ul {
 }
 .questionsButtons button {
   border-radius: 17%;
+  padding: 14px;
+  margin: 2px;
 }
 
 .list {
@@ -166,8 +164,7 @@ ul {
 }
 
 .li_a:hover {
-  background-color: #6b06b3;
-  color: black;
+  background-color: #413c3c56;
 }
 
 .nav_horizontal {
@@ -208,7 +205,7 @@ ul {
 .workout-selection-container {
   max-width: 600px;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #413c3c56;
   padding: 20px;
   border-radius: 10px;
