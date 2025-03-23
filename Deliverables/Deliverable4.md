@@ -31,7 +31,11 @@ An example of a test case. Include in your answer a GitHub link to the class bei
 A print screen showing the result of the execution of the automated tests. 
 Grading criteria (3 points): You should have an adequate number of automated tests. They should be well-written to exercise the main components of your system, covering the relevant inputs.
 
-## Technology
+## Technology  
+* HTML/CSS – Building & styling  
+* JavaScript – Functionality  
+* Discord – Communication  
+* GitHub – Tracking & managing  
 List the adopted technologies with a brief description and justification for choosing them.
 
 Grading criteria (1 point): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, and adequate use of language.
