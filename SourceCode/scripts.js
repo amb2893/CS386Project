@@ -178,7 +178,7 @@ function confirmQuestion(obj) {
 }
 
 function navigateToCustom() {
-  window.location.href = "/customAlarm.html";
+  window.location.href = "customAlarm.html";
 }
 
 // function to ask how they want to workout
