@@ -42,7 +42,29 @@ Print screen:
     - Approved by: Anthony Birk
   
 Print Screen:  
-![Model](D-4_Pictures/soundCueRequirement.png)
+![Model](D-4_Pictures/soundCueRequirement.png)  
+
+#### Requirement
+> Requirement: "As a gamer, I want to be able to contact through the website so that I can get my problems resolved."
+- Issue: [https://github.com/amb2893/CS386Project/issues/69](https://github.com/amb2893/CS386Project/issues/69)
+- Pull request: [https://github.com/amb2893/CS386Project/pull/77](https://github.com/amb2893/CS386Project/pull/77)
+    - Implemented by: Mayanna John
+    - Approved by: Anthony Birk   
+  
+Print Screen:  
+![Model](D-4_Pictures/contact_text_page.png)  
+
+#### Requirement
+> Requirement: "As a gamer, I want a website to perform simple exercises while I'm gaming."
+- Issue: [[https://github.com/amb2893/CS386Project/issues/68](https://github.com/amb2893/CS386Project/issues/35)]
+- Pull request: https://github.com/amb2893/CS386Project/pull/70
+    - Implemented by: Preston Smith
+    - Approved by: Anthony Birk
+  
+Print Screen:  
+![Model](D-4_Pictures/reworkedWorkoutplan.png)
+![Model](D-4_Pictures/workoutGeneration.png)
+
 
 ## Tests
 **Test Framework:** pytest - checks through HTML file to check everything is created  
@@ -93,15 +115,8 @@ Grading criteria (3 points): You should have an adequate number of automated tes
 * Neocities – Web hosting  
 
 ## Deployment
-Provide a link for the system in production and describe how you are deploying your system. 
 
-Some alternatives for deploying your system in the cloud:
-
-AWS. AWS Educate offers free credits for students. See the tutorial at https://docker-curriculum.com/ on how to create a container and deploy it on AWS. ]
-Digital Ocean or Azzure. As part of the GitHub Education benefits, as a student, you can get $100 at Digital Ocean and $100 at Microsoft Azzure cloud computing platforms (see more details at https://education.github.com/students)Links to an external site..
-Oracle Cloud. Oracle offers a free tier in its cloud environment that should be more than enough for your needs.
-Firebase. Firebase can be a good choice if you are building a mobile phone app.
-Grading criteria (3 points): This section will be graded based on the adequate use of the technology and its adequate description.
+Link to our website: https://gamingworkouthub.neocities.org/
 
 ## Licensing
 We have selected to use the MIT License for our source code because it allow contributors or users to use and or modify our source code. That is if and only if they include the original copyright notice.
@@ -109,20 +124,24 @@ We have selected to use the MIT License for our source code because it allow con
 ## Readme File
 
 Link to Readme File: https://github.com/amb2893/CS386Project/blob/main/README.md
+Link to Code of Conduct: https://github.com/amb2893/CS386Project/blob/testHTML/CODE_OF_CONDUCT.md
+Link to License: https://github.com/amb2893/CS386Project/blob/testHTML/LICENSE
+Link to Contributing: https://github.com/amb2893/CS386Project/blob/testHTML/CONTRIBUTING.md
+
 
 
 ## UX Design
-Describe the approach you adopted to design your user interface. Include some screenshots.
+Before we started building the website we all discussed and came up with a color theme for our website and as the website was built more and more we set some standardized colors which we would use for each section of the website. We wanted a dark-themed website with purple as the primary accent, so most of our website is black to dark grey, with most of the functional parts of the website being a dark purple color.
 
-Grading criteria (3 points): This section will be graded based on the appearance (aesthetics) and usability (ease of use) of the system.
+![Model](D-4_Pictures/reworkedWorkoutplan.png)
+![Model](D-4_Pictures/workoutGeneration.png)
+![Model](D-4_Pictures/issue_fix_20.png)
+
 
 ## Lessons Learned
-In retrospect, describe what your team learned during this first release and what you are planning to change for the second release. 
 For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.
 
 ## Demo
 Include a link to a video showing the system working.
 
 Grading criteria (5 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and the quality of the developed system from the external point of view (user interface).
-
-## Teamwork

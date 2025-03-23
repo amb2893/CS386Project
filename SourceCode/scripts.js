@@ -46,7 +46,9 @@ const custom = {
 const container = document.querySelector(".workout-selection-container");
 // Use the area where the workout buttons where before
 const buttonArea = document.querySelector(".workout-buttons");
-const originalLayout = buttonArea.innerHTML;
+let originalLayout;
+if (window.location.pathname === "/SourceCode/workoutPlan.html")
+  originalLayout = buttonArea.innerHTML;
 
 // get headers
 const header1 = document.querySelector(".size_title");
