@@ -269,7 +269,7 @@ async function rounds() {
   workoutType = "rounds";
   const title = "Round Based Workouts";
   const subtitle =
-    "Input the game stat you would like your insensity to be based off of. Click the start button to begin your workout";
+    "Input the game stat you would like your intensity to be based off of (for example how many eliminations you got in the last round). Click the start button to begin your workout";
   const html = ` 
   <div class="input-container">
     <input type="number" class="number-input" placeholder="Enter Stat" />
@@ -301,8 +301,8 @@ function generateWorkout(amount = 10) {
       const totalTime = amount * 6;
       const mins = Math.floor(totalTime / 60);
       const secs = totalTime % 60;
-      const timeDisplay = `${mins !== 0 ? `${mins} minutes ` : " "} ${
-        secs !== 0 ? `${secs} seconds.` : "."
+      const timeDisplay = `${mins !== 0 ? `${mins} minutes` : " "} ${
+        secs !== 0 ? ` ${secs} seconds.` : "."
       }`;
       subtitle = `Your workout is: ${curWorkout} for ${timeDisplay}`;
       html = `
