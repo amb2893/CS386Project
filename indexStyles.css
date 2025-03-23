@@ -30,30 +30,31 @@ button {
   cursor: pointer;
 }
 
-button, .alarmButton {
+button,
+.alarmButton {
   background-color: #6a0dad;
   font-family: "Times New Roman", serif;
   color: white;
   cursor: pointer;
-  padding: 20px 30px; 
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  font-size: 20px; 
+  font-size: 20px;
   cursor: pointer;
 }
 
-button, .selectButton {
+button,
+.selectButton {
   background-color: #6a0dad;
   font-family: "Times New Roman", serif;
   color: white;
   cursor: pointer;
-  padding: 20px 30px; 
+  padding: 20px 30px;
   border: none;
   border-radius: 5px;
-  font-size: 20px; 
+  font-size: 20px;
   cursor: pointer;
 }
-
 
 button:hover {
   background-color: #8a2be2; /* Lighter purple on hover */
@@ -175,15 +176,13 @@ ul {
   font-size: 30px;
 }
 
-.submitTest{
-    text-align: right;
-    .submitTestButton{
-      border-radius: 16px;
-      padding: 8px;
-    }
+.submitTest {
+  text-align: right;
+  .submitTestButton {
+    border-radius: 16px;
+    padding: 8px;
   }
-  
-
+}
 
 .workout-buttons {
   display: flex;
@@ -228,4 +227,41 @@ ul {
 .reveal {
   opacity: 1;
   transition: opacity 0.25s ease-in;
+}
+
+.number-input {
+  font-family: "Times New Roman", serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.169);
+  color: white;
+  margin-right: 10px;
+  border: 2px solid #6a0dad;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.timer {
+  font-size: 1000%;
+  color: #6a0dad;
+}
+
+.finish-workout {
+  margin-right: 10px;
+}
+
+.instructions {
+  color: hsla(0, 0%, 100%, 0.778);
+  font-size: 20px;
+}
+
+.big-button {
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
 }

@@ -24,6 +24,16 @@ Print screen:
 Print Screen:
 ![Model](D-4_Pictures/CustomAlarmTodoPage.png)
 ## Tests
+![TestPics](D-4_Pictures/testingpic1.png)  
+Testing Results for HTML Code  
+  
+![TestPics](D-4_Pictures/testingpic2.png)
+Test 1: Check to see if the header exists  
+Test 2: CHeck to see if all questions exist  
+
+![TestPics](D-4_Pictures/testingpic3.png)  
+Test 3: Test if all button classes exist  
+
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
 Link to your GitHub folder where your automated unit tests are located.
@@ -36,9 +46,7 @@ Grading criteria (3 points): You should have an adequate number of automated tes
 * JavaScript – Functionality  
 * Discord – Communication  
 * GitHub – Tracking & managing  
-List the adopted technologies with a brief description and justification for choosing them.
-
-Grading criteria (1 point): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, and adequate use of language.
+* Neocities – Web hosting  
 
 ## Deployment
 Provide a link for the system in production and describe how you are deploying your system. 
