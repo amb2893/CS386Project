@@ -51,11 +51,10 @@ Grading criteria (3 points): This section will be graded based on the adequate u
 We have selected to use the MIT License for our source code because it allow contributors or users to use and or modify our source code. That is if and only if they include the original copyright notice.
 
 ## Readme File
-You should also prepare your repository for receiving new contributors. You should prepare a Readme.md file. See an example at https://gist.github.com/PurpleBooth/109311bb0361f32d87a2   In the Readme file, the current version should be stated. You should follow the Semantic Versioning schema (https://semver.org/). Tag the GitHub repository accordingly (https://git-scm.com/book/en/v2/Git-Basics-Tagging). 
+
+Link to Readme File: https://github.com/amb2893/CS386Project/blob/main/README.md
 
 Your repository should contain a CONTRIBUTING.md file, a LICENSE file, and a CODE_OF_CONDUCT.md file. Search online for some examples of these files. In this section of the deliverable, put links to these files on GitHub.
-
-Grading criteria (3 points): This section will be based on the presence and quality of the information presented in the files.
 
 ## UX Design
 Describe the approach you adopted to design your user interface. Include some screenshots.
