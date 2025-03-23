@@ -10,9 +10,8 @@ body {
   text-align: center;
 }
 
-
 a {
-  color: #caadea; /* BLUE to be lighter than background links */
+  color: #caadea;
   text-decoration: none;
 }
 
@@ -64,7 +63,6 @@ button:hover {
 .selected {
   background-color: #a65fee;
 }
-
 
 header,
 footer {
@@ -120,7 +118,6 @@ ul {
   padding: 2%;
 }
 
-
 /* Styles for bodyTest.html -> */
 .bodyTestHeader {
   text-align: center;
@@ -131,7 +128,8 @@ ul {
   padding: 30px;
 }
 .testQuestions {
-  background-color: rgba(217, 229, 239, 0.297);
+  background-color: #413c3c56;
+  border-radius: 10px;
   padding: 20px;
 }
 .questionsButtons {
@@ -140,6 +138,11 @@ ul {
   justify-content: center;
   padding: 5px;
   gap: 8px;
+}
+.questionsButtons button {
+  border-radius: 17%;
+  padding: 14px;
+  margin: 2px;
 }
 .questionsButtons button {
   border-radius: 17%;
