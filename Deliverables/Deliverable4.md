@@ -3,25 +3,23 @@
 Gaming Workout Hub is an exercise website that allows gamers to exercise while gaming, prioritizing customizability and tracking features based on the user. This website will make exercising at home fun and easy by letting gamers play games and get alarms of when to exercise and or check off a list of exercises they can customize. The gamer will be able to customize exactly what they want for their workout, allowing for a flexible schedule that caters to the gamers needs and wants. https://github.com/amb2893/CS386Project
 
 
+## 2. Implemented Requirements
+#### Requirement
+> Requirement: "As a gamer, I want to be able to take a test about my information so that I can achieve my goal faster."
+- Issue: https://github.com/amb2893/CS386Project/issues/66
+- Pull request: https://github.com/amb2893/CS386Project/pull/65
+    - Implemented by: Luke Shahan / Preston Smith
+    - Approved by: blank
 
-## Requirements
-List in this section, the requirements and associated pull request that you implemented for this release, following the example below---include the description of the requirement, a link to the issue, a link to the pull request(s) that implement the requirement, who implemented the requirement, who approved it, and a print screen that depicts the implemented feature (if applicable). I expect that you implement the features you specified in your MVP (c.f. D.2 Requirements). 
+Print screen: 
+![Model](D-4_Pictures/InformationTestPic.png)
 
-Order the requirements below by the name of the student who implemented them. All the members of the group should have worked on implementation activities and submitted pull requests. Only stable code should be included in the release. The code that is still under development should be in branches.
-
-Example:
-
-Requirement: As a Student, I want to add a homework assignment so that I can organize my ToDo list.
-Issue: <link to your GitHub issue>
-Pull request: https://github.com/user/project/pull/426
-Implemented by: Martin Fowler
-Approved by: Ada Lovelace
-Print screen: A print screen that depicts the implemented feature (if applicable)
-
-All source code should be submitted by means of pull requests and the quality assurance person in the team should review and approve each pull request. For more information about pull requests:
-https://help.github.com/articles/about-pull-requests/Links to an external site.
-
-Grading criteria (8 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
+Requirement As a gamer who plays many types of games, I want the ability to customize and scale the tasks I do and how long I do them for depending on what game I am playing.
+Issue: https://github.com/amb2893/CS386Project/issues/38 
+Pull request: https://github.com/amb2893/CS386Project/pull/63 
+Implemented by: Anthony Birk 
+Approved by: Preston Smith 
+Print Screen:
 
 ## Tests
 You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
