@@ -42,7 +42,17 @@ Print screen:
     - Approved by: Anthony Birk
   
 Print Screen:  
-![Model](D-4_Pictures/soundCueRequirement.png)
+![Model](D-4_Pictures/soundCueRequirement.png)  
+
+#### Requirement
+> Requirement: "As a gamer, I want to be able to contact through the website so that I can get my problems resolved."
+- Issue: [https://github.com/amb2893/CS386Project/issues/69](https://github.com/amb2893/CS386Project/issues/69)
+- Pull request: [https://github.com/amb2893/CS386Project/pull/77](https://github.com/amb2893/CS386Project/pull/77)
+    - Implemented by: Mayanna John
+    - Approved by: Anthony Birk   
+  
+Print Screen:  
+![Model](D-4_Pictures/contact_text_page.png)  
 
 ## Tests
 **Test Framework:** pytest - checks through HTML file to check everything is created  
