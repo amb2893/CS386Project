@@ -142,6 +142,6 @@ Before we started building the website we all discussed and came up with a color
 For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.
 
 ## Demo
-Include a link to a video showing the system working.
-
-Grading criteria (5 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and the quality of the developed system from the external point of view (user interface).
+<a href="https://youtu.be/Rsx6NzS3mj8
+" target="_blank"><img src="https://img.youtube.com/vi/Rsx6NzS3mj8/maxresdefault.jpg" 
+alt="Link to Demo" width="480" height="360" border="10" /></a>
