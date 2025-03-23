@@ -33,6 +33,17 @@ Print Screen:
 
 Print screen: 
 ![Model](D-4_Pictures/issue_fix_20.png)
+  
+#### Requirement
+> Requirement: "As a gamer, I want to be able to hear an audio cue so that I know when to stop working out to get back to playing games."
+- Issue: [https://github.com/amb2893/CS386Project/issues/68](https://github.com/amb2893/CS386Project/issues/68)
+- Pull request: 
+    - Implemented by: Jalen Jensen
+    - Approved by:
+  
+Print Screen:  
+![Model](D-4_Pictures/soundCueRequirement.png)
+
 ## Tests
 **Test Framework:** pytest - checks through HTML file to check everything is created  
   
