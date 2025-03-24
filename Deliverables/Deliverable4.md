@@ -71,7 +71,8 @@ Print Screen:
   
 **Example test case:** The following is an automated test that parses through an HTML file, looks for associated class variables, and makes sure that all classes are available and exist. If everything exists and is within the HTML file, it will return a success.  
   
-**GitHub Automated Test File:** [GitHub](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_html.py)  
+**GitHub Automated Test File:** [Test File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_html.py)  
+**Class File Link:** [Class File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/models.py)  
 
 The test should run as follows:  
 1. Loads HTML content from file (also checks to see if file exists)
@@ -99,27 +100,23 @@ The test should run as follows:
 ### Results:  
 ![TestPics](D-4_Pictures/testingpic1.png)  
 
-
-You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the execution of the automated tests. 
-Grading criteria (3 points): You should have an adequate number of automated tests. They should be well-written to exercise the main components of your system, covering the relevant inputs.
-
 ## Technology  
-* HTML/CSS – Building & styling  
-* JavaScript – Functionality  
-* Discord – Communication  
-* GitHub – Tracking & managing  
-* Neocities – Web hosting  
+* HTML — HTML is a standard markup language for creating and structuring web pages. It allows us to present our product using features like headings, paragraphs, and other elements. HTML is widely used for creating the basic framework of a website, so we decided to utilize it so our content is displayed smoothly and is accessible.  
+* CSS — CSS goes hand-in-hand with HTML, styling HTML elements and defining the structure, such as colors, fonts, and how certain features respond. To make our product appeal more to gamers, we utilize CSS to match the trendy gaming style's aesthetics while also ensuring that it is readable.  
+* JavaScript — JavaScript is a programming language that allows for interactive elements such as accepting forms, content updating, and animations. To enhance our website's functionality, we use JavaScript to allow gamers to interact with our features and cater to their needs.  
+* Discord — Discord is a communication platform with helpful features like text, voice channels, video streaming, and file uploads. Discord is a great way to organize our group work and layout code files nicely in text. It is also a great way for us to communicate better, especially if members have different phone operating systems.  
+* GitHub – GitHub is a collaborative platform that allows developers to store, manage, and share code efficiently. Using GitHub helps make sure that each of us are working on different sections simultaneously with little risk in corrupting our main program.  
+* Neocities — Neocities is a free, open-source hosting site that acts as our website's hosted domain. It allows easy usage of HTML, CSS, and JavaScript, all of which are built into our website.  
 
 ## Deployment
+For this version we elected to use neocities, because they provide a free service. The draw back to using neocities is we cannot use a backend or any sound files, so for the next release we will transition to a differnt provider to host our website. Hoever, for this release, since a backend has not yet been implemented, this is not an issue until we finalize our product past the MVP.
 
 Link to our website: https://gamingworkouthub.neocities.org/
 
 ## Licensing
 We have selected to use the MIT License for our source code because it allow contributors or users to use and or modify our source code. That is if and only if they include the original copyright notice.
+
+Link to License: https://github.com/amb2893/CS386Project/blob/testHTML/LICENSE
 
 ## Readme File
 
@@ -139,7 +136,8 @@ Before we started building the website we all discussed and came up with a color
 
 
 ## Lessons Learned
-For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.
+For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.  
+For the next release we plan to have a backend implemented, so we can provide data security with the ability for users to sign up and log into the website, and be able to track their progress so far. We also plan on moving our deployment over to another provider like heroku, which can provide the ability to use a backend along with a database.
 
 ## Demo
 <a href="https://youtu.be/Rsx6NzS3mj8
