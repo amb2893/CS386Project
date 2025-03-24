@@ -374,6 +374,31 @@ function handleSpaceBarReps(e) {
   }
 }
 // function
+//call this function in the login function to 
+//alert the user at 10pm to get some rest
+//issue #42
+/*
+function startTime() {
+  const currentdate = new Date();
+  let h = currentdate.getHours();
+  let m = currentdate.getMinutes();
+  let s = currentdate.getSeconds();
+
+  //Check for specific time if greater or equal to
+  //10 pm
+  if (h >= 22 && m >= 0 && s >= 0) 
+  { 
+  //alert the user
+    alert("It's 10pm! Time to go to sleep!");
+  }
+
+  //start the starttime function after 1 second to 
+  //get a new time every second
+  //may change to ever hour since
+  //we are basing the time at the hour mark
+  setTimeout(startTime, 1000);
+}
+*/
 
 ///////////////////////////////
 // EVENT HANDLERS
