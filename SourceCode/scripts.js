@@ -381,12 +381,10 @@ function handleSpaceBarReps(e) {
 function startTime() {
   const currentdate = new Date();
   let h = currentdate.getHours();
-  let m = currentdate.getMinutes();
-  let s = currentdate.getSeconds();
 
   //Check for specific time if greater or equal to
   //10 pm
-  if (h >= 22 && m >= 0 && s >= 0) 
+  if (h >= 22) 
   { 
   //alert the user
     alert("It's 10pm! Time to go to sleep!");
