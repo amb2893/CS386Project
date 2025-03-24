@@ -101,11 +101,12 @@ The test should run as follows:
 ![TestPics](D-4_Pictures/testingpic1.png)  
 
 ## Technology  
-* HTML/CSS – Building & styling  
-* JavaScript – Functionality  
-* Discord – Communication  
-* GitHub – Tracking & managing  
-* Neocities – Web hosting  
+* HTML — HTML is a standard markup language for creating and structuring web pages. It allows us to present our product using features like headings, paragraphs, and other elements. HTML is widely used for creating the basic framework of a website, so we decided to utilize it so our content is displayed smoothly and is accessible.  
+* CSS — CSS goes hand-in-hand with HTML, styling HTML elements and defining the structure, such as colors, fonts, and how certain features respond. To make our product appeal more to gamers, we utilize CSS to match the trendy gaming style's aesthetics while also ensuring that it is readable.  
+* JavaScript — JavaScript is a programming language that allows for interactive elements such as accepting forms, content updating, and animations. To enhance our website's functionality, we use JavaScript to allow gamers to interact with our features and cater to their needs.  
+* Discord — Discord is a communication platform with helpful features like text, voice channels, video streaming, and file uploads. Discord is a great way to organize our group work and layout code files nicely in text. It is also a great way for us to communicate better, especially if members have different phone operating systems.  
+* GitHub – GitHub is a collaborative platform that allows developers to store, manage, and share code efficiently. Using GitHub helps make sure that each of us are working on different sections simultaneously with little risk in corrupting our main program.  
+* Neocities — Neocities is a free, open-source hosting site that acts as our website's hosted domain. It allows easy usage of HTML, CSS, and JavaScript, all of which are built into our website.  
 
 ## Deployment
 For this version we elected to use neocities, because they provide a free service. The draw back to using neocities is we cannot use a backend or any sound files, so for the next release we will transition to a differnt provider to host our website. Hoever, for this release, since a backend has not yet been implemented, this is not an issue until we finalize our product past the MVP.
