@@ -115,11 +115,14 @@ Grading criteria (3 points): You should have an adequate number of automated tes
 * Neocities – Web hosting  
 
 ## Deployment
+For this version we elected to use neocities, because they provide a free service. The draw back to using neocities is we cannot use a backend or any sound files, so for the next release we will transition to a differnt provider to host our website. Hoever, for this release, since a backend has not yet been implemented, this is not an issue until we finalize our product past the MVP.
 
 Link to our website: https://gamingworkouthub.neocities.org/
 
 ## Licensing
 We have selected to use the MIT License for our source code because it allow contributors or users to use and or modify our source code. That is if and only if they include the original copyright notice.
+
+Link to License: https://github.com/amb2893/CS386Project/blob/testHTML/LICENSE
 
 ## Readme File
 
@@ -139,7 +142,8 @@ Before we started building the website we all discussed and came up with a color
 
 
 ## Lessons Learned
-For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.
+For our team's first release, we learned that we need to communicate better with everyone in the group. Most of our conversations are usually just two people talking with one another, but we need to make it about everyone. These incidents made us not understand some pieces of code and made it longer for the issues to be resolved. As of now the problems have now been fixed and communication has improved.  
+For the next release we plan to have a backend implemented, so we can provide data security with the ability for users to sign up and log into the website, and be able to track their progress so far. We also plan on moving our deployment over to another provider like heroku, which can provide the ability to use a backend along with a database.
 
 ## Demo
 <a href="https://youtu.be/Rsx6NzS3mj8
