@@ -71,7 +71,8 @@ Print Screen:
   
 **Example test case:** The following is an automated test that parses through an HTML file, looks for associated class variables, and makes sure that all classes are available and exist. If everything exists and is within the HTML file, it will return a success.  
   
-**GitHub Automated Test File:** [GitHub](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_html.py)  
+**GitHub Automated Test File:** [Test File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_html.py)  
+**Class File Link:** [Class File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/models.py)  
 
 The test should run as follows:  
 1. Loads HTML content from file (also checks to see if file exists)
@@ -98,14 +99,6 @@ The test should run as follows:
   
 ### Results:  
 ![TestPics](D-4_Pictures/testingpic1.png)  
-
-
-You should implement automated tests that aim to verify the correct behavior of your code. Provide the following information:
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the execution of the automated tests. 
-Grading criteria (3 points): You should have an adequate number of automated tests. They should be well-written to exercise the main components of your system, covering the relevant inputs.
 
 ## Technology  
 * HTML/CSS – Building & styling  
