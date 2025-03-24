@@ -382,6 +382,12 @@ function startTime() {
   const currentdate = new Date();
   let h = currentdate.getHours();
 
+  //start the starttime function after 1 second to 
+  //get a new time every second
+  //may change to ever hour since
+  //we are basing the time at the hour mark
+  setTimeout(startTime, 1000);
+  
   //Check for specific time if greater or equal to
   //10 pm
   if (h >= 22) 
@@ -389,12 +395,6 @@ function startTime() {
   //alert the user
     alert("It's 10pm! Time to go to sleep!");
   }
-
-  //start the starttime function after 1 second to 
-  //get a new time every second
-  //may change to ever hour since
-  //we are basing the time at the hour mark
-  setTimeout(startTime, 1000);
 }
 */
 
