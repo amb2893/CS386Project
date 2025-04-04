@@ -180,7 +180,7 @@ function confirmQuestion(obj) {
 }
 
 function navigateToCustom() {
-  window.location.href = "customAlarm.html";
+  window.location.href = "../HTML+CSS/customAlarm.html";
 }
 
 // function to ask how they want to workout
@@ -214,7 +214,7 @@ function interval() {
 }
 
 function playSound() {
-  const sound = new Audio('timerEndSound.mp3');
+  const sound = new Audio("../../media/timerEndSound.mp3");
   sound.play();
 }
 
@@ -374,7 +374,7 @@ function handleSpaceBarReps(e) {
   }
 }
 // function
-//call this function in the login function to 
+//call this function in the login function to
 //alert the user at 10pm to get some rest
 //issue #42
 /*
