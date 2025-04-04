@@ -12,9 +12,9 @@ Most of our applications are contained within the Gaming Workout Hub folder. Wit
 
 # Design Patterns
 ### Abstract Factory Design Pattern
-![Architecture](D-5-Pictures/design1.png)
+![DesignPatterns](D-5-Pictures/design1.png)
 ### Singleton Design Pattern
-![Architecture](D-5-Pictures/design2.png)
+![DesignPatterns](D-5-Pictures/design2.png)
 
 # Design Principles
 
