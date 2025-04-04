@@ -1,0 +1,141 @@
+/* General Page Styles */
+body {
+    background-color: #272525; /* Dark gray background */
+}
+
+.text_family {
+    color: hsla(0, 0%, 100%, 0.778);
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+    -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+    text-align: center;
+}
+
+a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8a2be2;
+}
+
+button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8a2be2;
+}
+
+.selected {
+    background-color: #a65fee;
+}
+
+header,
+footer {
+    background-color: #413c3c56;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.head {
+    text-align: center;
+}
+
+.feature {
+    color: hsla(0, 0%, 100%, 0.778);
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+    -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+    text-align: center;
+}
+
+/* About the Team Section */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #272525;
+}
+
+.team-member {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    background: #413c3c56;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6a0dad;
+}
+
+.team-member h2 {
+    color: hsla(0, 0%, 100%, 0.9);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.team-member p {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 14px;
+}
+
+/* Navigation Styles */
+.nav_horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.li_list {
+    float: left;
+}
+
+.li_a {
+    display: block;
+    padding: 8px;
+    background-color: #272525;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.778);
+    -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+}
+
+.li_a:hover {
+    background-color: #413c3c56;
+}
+
+/* Titles */
+.size_title {
+    font-size: 45px;
+}
+
+.size_sub_title {
+    font-size: 30px;
+}
