@@ -31,6 +31,21 @@ Most of our applications are contained within the Gaming Workout Hub folder. Wit
 ### This diagram helps developers understand, build, and maintain the system by clearly showing how all parts of the backend interact.
 
 # Sequence Diagrams
+![sequence Diagram](D-5-Pictures/sequencediagram.png)  
+## Use Case  
+### Actors:  
+User  
+### Interests:  
+User: Wants to create a personalize workout plan to be able to track fitness progression tied with game motivation. Wants to be able to share feedback at the end.  
+System: Ensures data storage and interacts correctly with the user to provide a seamless experience.  
+### Flow:  
+1. User registers and logs in.
+2. User "creates plan"
+3. User adds exercises to plan
+4. User then gets a created workout plan back
+5. User decides game to play
+6. User leaves review at the end of game time
+
 
 # Design Patterns
 ### Abstract Factory Design Pattern
