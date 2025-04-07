@@ -1,7 +1,7 @@
 # Description
-Our system, called the Gaming Workout Hub, helps gamers stay healthy by encouraging them to work out while they play. The architecture has a front end made with JavaScript, HTML, and CSS, a back end made with Node.js, and a media folder that holds the sounds we've used on the site. The front end handles and shows the parts that users can see and use. The back end sets up the server, runs it, and takes care of user info. Together, these parts make a unique and dynamic user experience for gamers who visit the website.  
+Our system, called the Gaming Workout Hub, helps gamers stay healthy by encouraging them to work out while they play. This website will ask Gamers how they want to work out. They will be given a list of pre-chosen workout sets or they can add their own workouts. All of their exercises will be tracked with a goal that is set in place after they take a body test. The system will generate a recommended plan, but the user will always be able to modify it into their own plan. All of this combined with a notification to make sure users can consistently get their exercise, and slowly start living a healthier life.
 
-In order to keep the system organized and easy to keep track of, we opted for using certain design patterns and principles. We are using the Abstract Factory pattern to manage different types of workout plans like weight loss, maintenance, and muscle gain. Next, the Singleton pattern is for sending notifications so that only one notification system is used for each gamer. Software design principles we followed are single responsibility, open-closed, and the Liskov Substitution to make sure that each part of the system follows one job and cooperates well with other sections.  
+The architecture has a front end made with JavaScript, HTML, and CSS, a back end made with Node.js, and a media folder that holds the sounds we've used on the site. The front end handles and shows the parts that users can see and use. The back end sets up the server, runs it, and takes care of user info. Together, these parts make a unique and dynamic user experience for gamers who visit the website. In order to keep the system organized and easy to keep track of, we opted for using certain design patterns and principles. We are using the Abstract Factory pattern to manage different types of workout plans like weight loss, maintenance, and muscle gain. Next, the Singleton pattern is for sending notifications so that only one notification system is used for each gamer. Software design principles we followed are single responsibility, open-closed, and the Liskov Substitution to make sure that each part of the system follows one job and cooperates well with other sections.  
 
 # Architecture
 
@@ -59,11 +59,15 @@ System: Ensures data storage and interacts correctly with the user to provide a 
 
 ## 1. Single Responsibility Principle (SRP)
 
+SRP states that every module, class, or function should only perform one task, and not try to do everything in the same funciton.
+
 The function pageTransition(title, subtitle, html) is responsible only for handling page transitions, ensuring a smooth layout change without interfering with workout logic.
 
 Similarly, generateWorkout(amount) focuses on determining the workout to be displayed, keeping responsibilities separate.
 
 ## 2. Open-Closed Principle (OCP)
+
+OCP states that systems should be available for extension without the need to edit other code.
 
 The workout objects (bodyweight, cardio, etc.) are structured in a way that allows adding new workouts without modifying existing code. A new workout can be introduced by creating another object with the same structure.
 
@@ -71,7 +75,5 @@ The function parseCustomWorkout() processes custom workouts dynamically without 
 
 ## 3. Liskov Substitution Principle (LSP)
 
-The confirmQuestion(obj) function works with any workout object (bodyweight, custom, etc.) as long as it has a name property, allowing consistent behavior regardless of the workout type.
-
-generateWorkout(amount) supports both time-based and rep-based workouts interchangeably by checking curType, ensuring that different types of workouts can be used without breaking functionality.
+LSP states that each subtype should have the same characteristics of the parent.
 
