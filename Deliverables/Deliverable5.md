@@ -10,7 +10,7 @@ The architecture has a front end made with JavaScript, HTML, and CSS, a back end
 Most of our applications are contained within the Gaming Workout Hub folder. Within this folder, we have a back-end folder, front end folder, and a media folder. Within the media folder, we contain any sounds that are used in the website. Within the front-end folder, we have a JavaScript folder and an HTML/CSS folder to build the website. Within the back-end folder, we just have a node folder for now, to launch the server and connect with the database, and store user data. All of these work together to build our web application but leave plenty of opportunities to expand the functionality without causing issues with the existing functionality.
 
 # Class Diagrams
-![classDiagram](D-5-Pictures/class_diagram.png)
+![classDiagram](D-5-Pictures/classDiagram.png)
 ## Class Diagram Summary – Gaming Workout Hub
 ### The class diagram represents the structure and relationships between the core components of the Gaming Workout Hub system. It models how users interact with games, workouts, and fitness plans in the app.
 
@@ -31,7 +31,7 @@ Most of our applications are contained within the Gaming Workout Hub folder. Wit
 ### This diagram helps developers understand, build, and maintain the system by clearly showing how all parts of the backend interact.
 
 # Sequence Diagrams
-![sequence Diagram](D-5-Pictures/sequencediagram.png)  
+![sequence Diagram](D-5-Pictures/seq.png)  
 ## Use Case  
 ### Actors:  
 User  
