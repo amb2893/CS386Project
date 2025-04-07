@@ -48,10 +48,10 @@ System: Ensures data storage and interacts correctly with the user to provide a 
 
 
 # Design Patterns
-### Abstract Factory Design Pattern
+### Abstract Factory Pattern
 ![DesignPatterns](D-5-Pictures/factory.png)<br />
 [Workout: https://github.com/amb2893/CS386Project/blob/testHTML/SourceCode/Gaming%20Workout%20Hub/front-end/JS/scripts.js](https://github.com/amb2893/CS386Project/blob/testHTML/SourceCode/Gaming%20Workout%20Hub/front-end/JS/scripts.js)
-### Strategy Design Pattern
+### Strategy Pattern
 ![DesignPatterns](D-5-Pictures/strategy.png)<br />
 [WorkoutController: https://github.com/amb2893/CS386Project/blob/testHTML/SourceCode/Gaming%20Workout%20Hub/front-end/JS/scripts.js](https://github.com/amb2893/CS386Project/blob/testHTML/SourceCode/Gaming%20Workout%20Hub/front-end/JS/scripts.js)
 
