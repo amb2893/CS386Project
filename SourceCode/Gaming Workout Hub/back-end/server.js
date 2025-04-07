@@ -4,7 +4,7 @@ const app = express();
 
 // Build the absolute path to the front-end folder
 // Adjust the relative path as needed
-const frontEndPath = path.join(__dirname, "../../front-end/HTML+CSS");
+const frontEndPath = path.join(__dirname, "../../front-end");
 
 // Serve static files from the front-end folder (if you have CSS, JS, etc.)
 app.use(express.static(frontEndPath));
