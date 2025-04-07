@@ -49,9 +49,9 @@ System: Ensures data storage and interacts correctly with the user to provide a 
 
 # Design Patterns
 ### Abstract Factory Design Pattern
-![DesignPatterns](D-5-Pictures/design1.png)
-### Singleton Design Pattern
-![DesignPatterns](D-5-Pictures/design2.png)
+![DesignPatterns](D-5-Pictures/factory.png)
+### Strategy Design Pattern
+![DesignPatterns](D-5-Pictures/strategy.png)
 
 # Design Principles
 
