@@ -14,17 +14,18 @@ Most of our applications are contained within the Gaming Workout Hub folder. Wit
 ## Class Diagram Summary – Gaming Workout Hub
 ### The class diagram represents the structure and relationships between the core components of the Gaming Workout Hub system. It models how users interact with games, workouts, and fitness plans in the app.
 
-- User: Represents a registered member who can create workout plans, leave reviews, and track progress.
+- User: a class to check if a user has created an account and let them make one if they need it.
+
+- Gamer: Represents a registered member who can create workout plans and track progress.
+
+- Information: This is the information input by the user with which a plan will be based on.
 
 - Game: Represents a video game that workouts can be themed around or paired with.
 
-- Plan: A personalized workout plan linking a user to a game and containing multiple workouts.
-
-- Workout: A fitness session that belongs to a plan and contains a series of exercises.
+- WorkoutPlan: A personalized workout plan linking a user to a game and containing multiple exercises in the plan and the exercises already completed..
 
 - Exercise: Individual physical tasks (e.g., push-ups, squats) that belong to a workout.
 
-- Review: A user's rating and feedback on a specific game.
 
 ### The diagram includes implementation-level details such as data types, visibility (public, private), parameters, and return types. It also shows associations, such as one user having many plans, or a plan including multiple workouts.
 
