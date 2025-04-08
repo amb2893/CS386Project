@@ -416,3 +416,25 @@ document.querySelectorAll(".questionsButtons").forEach((element) => {
     });
   });
 });
+
+
+// register and login fail
+
+// Check for query parameters and show alert if needed
+window.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const message = urlParams.get("message");
+
+  if (message === "exists") {
+      alert("This email is already registered. Please log in.");
+  }
+
+  if (message === "user-not-found") {
+      alert("User not found. Please register first.");
+  }
+
+  if (message === "invalid-credentials") {
+      alert("Incorrect password. Please try again.");
+  }
+});
+
