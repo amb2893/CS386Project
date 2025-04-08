@@ -11,24 +11,34 @@
 <body class="text_family" >
 
     <main class="loginBody">
+        <form action="/login" method="POST">
+            <div class="loginBox">
+                <div class="information welcomeLogin">
+                    <h1 class="loginText">Welcome! </h1>
+                        <h3>Here you can Sign In to gain access to all of your previous history. Signing in allows you to pick up right where you left off without losing any progress. You'll also be able to view your saved data, preferences, and past activity. It’s a quick and secure way to personalize your experience every time you return.   </h3>
 
-        <div class="loginBox">
-            <div class="welcomeLogin">
-                <h1 class="loginText">Welcome to Gaming Workout Hub</h2>
-                    <h3>Here you can Login to gain access to all of your previous history!</h3>
-            </div>
-            <div class="login">
-                <div class="information">
-                <h2>Login</h2>
-                <input type="text" > 
-                <p>Email</p>
-                <input type="text">
-                <p>Password</p>  
                 </div>
-                
-                
+                <div class="login">
+                    <div class="information Email">
+                        <h2>Login</h2>
+                        <input type="email" name="email" id="" class="" /> 
+                        <br><label>Email</label>
+                    </div>
+                    <div class="information Password">
+                        <input type="password" name="password" class="">
+                        <br><label>Password</label>     
+                    </div>
+                    <button type="submit" class="information Submit">Login</button>
+                    <div class="information Register">
+                        <p> Not Registered yet?<a href="register.html"> Register </a> </p>
+                    </div>
+                    
+                    
+                    
+                </div>
+
             </div>
-        </div>
+        </form>
 
     
         
