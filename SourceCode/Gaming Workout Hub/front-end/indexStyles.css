@@ -157,6 +157,7 @@ ul {
 
 .li_list {
   float: left;
+
 }
 
 .li_a {
@@ -175,7 +176,8 @@ ul {
 
 .nav_horizontal {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .size_title {
@@ -273,4 +275,50 @@ ul {
   padding: 10px;
   font-size: 18px;
   text-align: center;
+}
+
+/* login/sign-up CSS
+-
+-
+-
+-
+*/
+.loginBody{
+  
+  
+  margin: 2vw;
+  padding: 1vw;
+}
+.loginBox{
+  background-color: #413c3c56;
+  border-radius: 2vw;
+  padding: 7vw;
+  display: flex;
+  text-align: left;
+  
+}
+.welcomeLogin{
+  flex: 1;
+  padding: 1.3vw;
+}
+.login{
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+  flex:1;
+  padding: 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;  
+  color: rgb(45, 41, 41) ;
+  -webkit-text-stroke: 0.3px rgb(112, 34, 151);
+
+}
+.information{
+  font-size: 1.3vw;
+  input{
+    width: 75%;
+    padding: 1.2vw;
+    font-size: 1.7vw;
+  }
 }
