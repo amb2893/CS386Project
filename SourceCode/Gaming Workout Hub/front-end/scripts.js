@@ -180,9 +180,8 @@ function confirmQuestion(obj) {
 }
 
 function navigateToCustom() {
-  window.location.href = "../HTML+CSS/customAlarm.html";
+  window.location.href = "customAlarm.html";
 }
-
 // function to ask how they want to workout
 function reminderQuestion() {
   if (choice.name === "Custom") navigateToCustom();
