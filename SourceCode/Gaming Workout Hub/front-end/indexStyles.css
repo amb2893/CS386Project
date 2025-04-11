@@ -322,3 +322,18 @@ ul {
     font-size: 1.7vw;
   }
 }
+
+
+.logo-link {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.logo-img {
+  width: 60px; /* adjust size as needed */
+  height: auto;
+  cursor: pointer;
+}
+
