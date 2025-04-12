@@ -389,7 +389,7 @@ function startTime()
   // Validate input before continuing
   if (isNaN(alertHour) || alertHour < 0 || alertHour > 23) 
     {
-    //a test to see if there a input this is automated
+    //a test to see if there a input
     console.log("Waiting for valid input...");
     setTimeout(startTime, 1000);
     return;
