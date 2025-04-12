@@ -59,6 +59,7 @@ let curWorkout;
 let curType;
 let workoutType;
 let timeRounds;
+let progress = parseInt(sessionStorage.getItem("workoutProgress")) || 0;
 
 ///////////////////////////////
 // FUNCTIONS
@@ -218,6 +219,9 @@ function playSound() {
 }
 
 function startTimer(type, finishEvent, customTime = 10) {
+  let time;
+  const timerDisplay = document.querySelector(".timer");
+
   function tick() {
     const min = String(Math.trunc(time / 60)).padStart(1, 0);
     const sec = String(Math.trunc(time % 60)).padStart(2, 0);
@@ -229,6 +233,16 @@ function startTimer(type, finishEvent, customTime = 10) {
     if (time === 0) {
       playSound();
       clearInterval(timer);
+
+      // Increment progress when timer ends
+      progress++;
+      sessionStorage.setItem("workoutProgress", progress);
+
+      const progressBar = document.getElementById("progressBar");
+      if (progressBar && progress <= 8) {
+        progressBar.value = progress;
+      }
+
       if (finishEvent) {
         finishEvent();
       }
@@ -237,8 +251,6 @@ function startTimer(type, finishEvent, customTime = 10) {
     // decrease time
     time--;
   }
-  let time;
-  const timerDisplay = document.querySelector(".timer");
 
   if (type === "interval") {
     const timerInput = document.querySelector(".number-input");
@@ -453,4 +465,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+});
+
+// saves progress bar progress
+document.addEventListener("DOMContentLoaded", () => {
+  const savedProgress = parseInt(sessionStorage.getItem("workoutProgress")) || 0;
+  document.getElementById("progressBar").value = savedProgress;
+  progress = savedProgress;
 });
