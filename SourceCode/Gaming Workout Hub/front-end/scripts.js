@@ -397,7 +397,7 @@ function startTime()
 
   //check if current hour is greater than or equal to alert hour
   if (h >= alertHour) {
-    alert(`It's ${h}:00! Time to take action!`);
+    alert(`It's ${h}:00! Time to take a rest!`);
   } else {
     //check again every 1 second
     setTimeout(startTime, 1000);
