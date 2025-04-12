@@ -376,26 +376,33 @@ function handleSpaceBarReps(e) {
 //call this function in the login function to
 //alert the user at 10pm to get some rest
 //issue #42
-/*
-function startTime() {
+
+function startTime() 
+{
   const currentdate = new Date();
   let h = currentdate.getHours();
 
-  //start the starttime function after 1 second to 
-  //get a new time every second
-  //may change to ever hour since
-  //we are basing the time at the hour mark
-  setTimeout(startTime, 1000);
-  
-  //Check for specific time if greater or equal to
-  //10 pm
-  if (h >= 22) 
-  { 
-  //alert the user
-    alert("It's 10pm! Time to go to sleep!");
+  //get the user input from the input field
+  const userInput = document.getElementById("alertHour").value;
+  const alertHour = parseInt(userInput);
+
+  // Validate input before continuing
+  if (isNaN(alertHour) || alertHour < 0 || alertHour > 23) 
+    {
+    //a test to see if there a input this is automated
+    console.log("Waiting for valid input...");
+    setTimeout(startTime, 1000);
+    return;
+  }
+
+  //check if current hour is greater than or equal to alert hour
+  if (h >= alertHour) {
+    alert(`It's ${h}:00! Time to take action!`);
+  } else {
+    //check again every 1 second
+    setTimeout(startTime, 1000);
   }
 }
-*/
 
 ///////////////////////////////
 // EVENT HANDLERS
