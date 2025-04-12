@@ -213,7 +213,7 @@ function interval() {
 }
 
 function playSound() {
-  const sound = new Audio("../../media/timerEndSound.mp3");
+  const sound = new Audio(".././media/timerEndSound.mp3");
   sound.play();
 }
 
@@ -401,21 +401,6 @@ function startTime() {
 // EVENT HANDLERS
 ///////////////////////////////
 
-// add event listeners to buttons that will be used with the backend
-// to save a persons body info
-document.querySelectorAll(".questionsButtons").forEach((element) => {
-  const questionParentNode = element.parentNode;
-  const listNode = `.${questionParentNode.classList[0]}-button`;
-  document.querySelectorAll(listNode).forEach((listElement) => {
-    listElement.addEventListener("click", function () {
-      document.querySelectorAll(listNode).forEach((listButton) => {
-        listButton.classList.remove("selected");
-      });
-      this.classList.add("selected");
-    });
-  });
-});
-
 
 // register and login fail
 
@@ -437,3 +422,26 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// contact confirmation
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contactForm");
+  const confirmation = document.getElementById("formConfirmation");
+
+  if (form) {
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the default form submission
+      
+      // You can grab the values if you want to do something with them
+      const name = document.getElementById("fname").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      // Clear the form
+      form.reset();
+
+      if (confirmation) {
+        confirmation.style.display = "block";
+      }
+    });
+  }
+});
