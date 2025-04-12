@@ -51,7 +51,8 @@ Print Screen:
 ![Model](D-6-Pictures/reccomendedWorkout.png)
 
 ## Tests
-
+Automated test for startTime() function. The requires the installation of node on your VS code. You would just run node test.js and it will test the parameter that are given.
+![Model](D-6-Pictures/testStartTime.png)
 
 ## Demo 
 
