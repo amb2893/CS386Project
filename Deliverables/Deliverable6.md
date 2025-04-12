@@ -4,7 +4,7 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 
 ## 2. Implemented Requirements
 #### Requirement
-> Requirement: "As a gamer who is very busy, I want to be able to easily and quickly get from one task to another with one click ."
+> Requirement: "As a gamer who is very busy, I want to be able to easily and quickly get from one task to another with one click of a logo for ease and convenience."
 - Issue: [https://github.com/amb2893/CS386Project/issues/38 ](https://github.com/amb2893/CS386Project/issues/89)
 - Pull request: [https://github.com/amb2893/CS386Project/pull/63](https://github.com/amb2893/CS386Project/pull/90) 
     - Implemented by: Anthony Birk 
