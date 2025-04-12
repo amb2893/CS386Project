@@ -213,7 +213,7 @@ function interval() {
 }
 
 function playSound() {
-  const sound = new Audio("../../media/timerEndSound.mp3");
+  const sound = new Audio(".././media/timerEndSound.mp3");
   sound.play();
 }
 
@@ -400,21 +400,6 @@ function startTime() {
 ///////////////////////////////
 // EVENT HANDLERS
 ///////////////////////////////
-
-// add event listeners to buttons that will be used with the backend
-// to save a persons body info
-document.querySelectorAll(".questionsButtons").forEach((element) => {
-  const questionParentNode = element.parentNode;
-  const listNode = `.${questionParentNode.classList[0]}-button`;
-  document.querySelectorAll(listNode).forEach((listElement) => {
-    listElement.addEventListener("click", function () {
-      document.querySelectorAll(listNode).forEach((listButton) => {
-        listButton.classList.remove("selected");
-      });
-      this.classList.add("selected");
-    });
-  });
-});
 
 
 // register and login fail
