@@ -19,6 +19,7 @@ Print Screen:
 ## Demo 
 
 ## Code Quality
+Our team followed consistent code conventions such as clear section labeling (///////////////////////////////) and camelCase naming for variables and functions to enhance readability. We adopted modular function design and reused logic with helper functions like pageTransition() to keep the codebase clean and DRY (Don't Repeat Yourself). Additionally, we used meaningful naming and grouped related functionality, which helped us maintain high code quality and streamline future development or debugging efforts.
 
 ## Lesson Learned
 Our team learned the importance of communication while working on a large scale coding project. We learned how valuable having a clear plan and deadlines are, and how following them may be difficult but is better in the long run. If we were to start this release again we would definetely make more solid plans and goals for each person and make sure everyone meets the deadlines. 
