@@ -59,7 +59,7 @@ let curWorkout;
 let curType;
 let workoutType;
 let timeRounds;
-let progress = parseInt(sessionStorage.getItem("workoutProgress")) || 0;
+let progress = parseInt(localStorage.getItem("workoutProgress")) || 0;
 
 ///////////////////////////////
 // FUNCTIONS
@@ -236,7 +236,7 @@ function startTimer(type, finishEvent, customTime = 10) {
 
       // Increment progress when timer ends
       progress++;
-      sessionStorage.setItem("workoutProgress", progress);
+      localStorage.setItem("workoutProgress", progress);
 
       const progressBar = document.getElementById("progressBar");
       if (progressBar && progress <= 8) {
@@ -469,7 +469,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // saves progress bar progress
 document.addEventListener("DOMContentLoaded", () => {
-  const savedProgress = parseInt(sessionStorage.getItem("workoutProgress")) || 0;
+  const savedProgress = parseInt(localStorage.getItem("workoutProgress")) || 0;
   document.getElementById("progressBar").value = savedProgress;
   progress = savedProgress;
 });
