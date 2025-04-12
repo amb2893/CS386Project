@@ -41,6 +41,15 @@ Print Screen:
 Print Screen:
 ![Model](D-6-Pictures/alert.png)
 
+> Requirement: "As a beginner to workouts, I want a daily recommended workout so that I can have a general guide for at-home exercises"
+- Issue: [#92](https://github.com/amb2893/CS386Project/issues/92)
+- Pull request: [#93](https://github.com/amb2893/CS386Project/pull/93)
+    - Implemented by: Preston Smith 
+    - Approved by: Anthony Birk
+
+Print Screen:
+![Model](D-6-Pictures/reccomendedWorkout.png)
+
 ## Tests
 
 
