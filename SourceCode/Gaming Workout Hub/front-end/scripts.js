@@ -437,3 +437,26 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// contact confirmation
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contactForm");
+  const confirmation = document.getElementById("formConfirmation");
+
+  if (form) {
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the default form submission
+      
+      // You can grab the values if you want to do something with them
+      const name = document.getElementById("fname").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+
+      // Clear the form
+      form.reset();
+
+      if (confirmation) {
+        confirmation.style.display = "block";
+      }
+    });
+  }
+});

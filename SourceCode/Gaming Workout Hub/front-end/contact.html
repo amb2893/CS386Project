@@ -45,7 +45,7 @@
           If you have any questions or feedback, feel free to reach out to us.
           We’d love to hear from you!
         </p>
-        <form action="action_page.php">
+        <form id="contactForm">
           <label for="fname">Name:</label>
           <input
             type="text"
@@ -78,6 +78,10 @@
           <button type="submit">Send</button>
         </form>
 
+        <div id="formConfirmation" style="display: none; color: green; margin-top: 10px;">
+          Your message has been sent!
+        </div>
+
         <h2><br />Proposition</h2>
         <p>
           We want to be the website that helps gamers find the motivation to
@@ -95,6 +99,6 @@
     <footer>
       <p class="text_family">&copy; 2025 Gaming Workout Hub</p>
     </footer>
-    <script src="../JS/scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
