@@ -33,8 +33,8 @@ Print Screen:
 ![Model](D-6-Pictures/after_send.png)
 
 > Requirement: "As a gamer, I want a notification to rest, since rest is important to be healthy."
-- Issue: [https://github.com/amb2893/CS386Project/issues/38 ](https://github.com/amb2893/CS386Project/issues/89)
-- Pull request: [https://github.com/amb2893/CS386Project/pull/63](https://github.com/amb2893/CS386Project/pull/90) 
+- Issue: [https://github.com/amb2893/CS386Project/issues/38 ](https://github.com/amb2893/CS386Project/issues/42)
+- Pull request: [https://github.com/amb2893/CS386Project/pull/63](https://github.com/amb2893/CS386Project/pull/) 
     - Implemented by: Franz Mischke
     - Approved by: 
 
