@@ -188,7 +188,7 @@ ul {
 }
 
 .submitTest {
-  text-align: right;
+  text-align: center;
   .submitTestButton {
     border-radius: 16px;
     padding: 8px;
@@ -284,8 +284,6 @@ ul {
 -
 */
 .loginBody{
-  
-  
   margin: 2vw;
   padding: 1vw;
 }
@@ -335,5 +333,14 @@ ul {
   width: 60px; /* adjust size as needed */
   height: auto;
   cursor: pointer;
+}
+
+.rec-workout {
+  background-color: #413c3c56;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 800%;
+  color: #6a0dad;
 }
 
