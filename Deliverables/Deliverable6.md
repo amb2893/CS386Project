@@ -13,6 +13,15 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 Print Screen:
 ![Model](D-6-Pictures/logoHomeButton.png)
 
+> Requirement: "As a gamer, I want to be able to log in so all of my previous infomation can be stored."
+- Issue: https://github.com/amb2893/CS386Project/issues/71
+- Pull request: https://github.com/amb2893/CS386Project/pull/88
+    - Implemented by: Luke Shahan
+    - Approved by: Anthony Birk
+
+Print Screen: 
+
+
 ## Tests
 
 
