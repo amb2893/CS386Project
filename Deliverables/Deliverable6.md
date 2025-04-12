@@ -23,6 +23,14 @@ Print Screen:
 ![Model](D-6-Pictures/register_screenshot.png)
 ![Model](D-6-Pictures/login_screenshot.png)
 
+> Requirement: "As a gamer, I want to be able to send feedback or issues I have with the website so I can have a better experience."
+- Issue: [#91](https://github.com/amb2893/CS386Project/issues/91)
+- Pull request: [#93](https://github.com/amb2893/CS386Project/pull/93)
+    - Implemented by: Mayanna John 
+    - Approved by: Anthony Birk
+
+Print Screen:
+![Model](D-6-Pictures/after_send.png)
 
 ## Tests
 
