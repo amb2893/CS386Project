@@ -376,31 +376,33 @@ function handleSpaceBarReps(e) {
 //call this function in the login function to
 //alert the user at 10pm to get some rest
 //issue #42
-
-function startTime() 
+//for testing purposes
+function startChecking() 
 {
-  const currentdate = new Date();
-  let h = currentdate.getHours();
-
-  //get the user input from the input field
   const userInput = document.getElementById("alertHour").value;
   const alertHour = parseInt(userInput);
+  startTime(alertHour);
+}
 
-  // Validate input before continuing
+function startTime(alertHour) 
+{
+  const currentHour = new Date().getHours();
+  // see in it is a actual hour and not a name and in the parameters 0-23
   if (isNaN(alertHour) || alertHour < 0 || alertHour > 23) 
-    {
-    //a test to see if there a input
-    console.log("Waiting for valid input...");
-    setTimeout(startTime, 1000);
+  {
+    //will timeout after a second and try again
+    setTimeout(() => startTime(alertHour), 1000);
     return;
   }
 
-  //check if current hour is greater than or equal to alert hour
-  if (h >= alertHour) {
-    alert(`It's ${h}:00! Time to take a rest!`);
-  } else {
-    //check again every 1 second
-    setTimeout(startTime, 1000);
+  if (currentHour >= alertHour) 
+  {
+    alert(`It's ${currentHour}:00! Time to take action!`);
+  } 
+  else 
+  {
+    //will timeout after a second and try again
+    setTimeout(() => startTime(alertHour), 1000);
   }
 }
 
