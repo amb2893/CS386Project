@@ -20,6 +20,8 @@ Print Screen:
     - Approved by: Anthony Birk
 
 Print Screen: 
+![Model](D-6-Pictures/register_screenshot.png)
+![Model](D-6-Pictures/login_screenshot.png)
 
 
 ## Tests
