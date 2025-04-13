@@ -82,6 +82,13 @@ Automated test for checking if the progress bar will increment by 1 after "finis
 ![Model](D-6-Pictures/progressbarresultv2.png)
 
 ## Demo 
+<a href="https://youtu.be/RjpGIxPZzG4
+" target="_blank"><img src="https://img.youtube.com/vi/Rsx6NzS3mj8/maxresdefault.jpg" 
+alt="Link to Demo" width="480" height="360" border="10" /></a>
+
+### Website Deployment 
+https://gaming-workout-hub.onrender.com/index.html
+
 
 ## Code Quality
 Our team followed consistent code conventions such as clear section labeling (///////////////////////////////) and camelCase naming for variables and functions to enhance readability. We adopted modular function design and reused logic with helper functions like pageTransition() to keep the codebase clean and DRY (Don't Repeat Yourself). Additionally, we used meaningful naming and grouped related functionality, which helped us maintain high code quality and streamline future development or debugging efforts.
