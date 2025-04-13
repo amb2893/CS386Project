@@ -50,6 +50,15 @@ Print Screen:
 Print Screen:
 ![Model](D-6-Pictures/reccomendedWorkout.png)
 
+> Requirement: "As a gamer following a workout routine, I want to be able to see a progress bar that updates every workout to visual track my how much I have done."
+- Issue: [#72](https://github.com/amb2893/CS386Project/issues/72)
+- Pull request: [#94](https://github.com/amb2893/CS386Project/pull/94)
+    - Implemented by: Jalen Jensen
+    - Approved by:
+
+Print Screen:  
+![Model](D-6-Pictures/progressBar.png)
+
 ## Tests
 Automated test for startTime() function. The requires the installation of node on your VS code. You would just run node test.js and it will test the parameter that are given.
 ![Model](D-6-Pictures/testStartTime.png)
