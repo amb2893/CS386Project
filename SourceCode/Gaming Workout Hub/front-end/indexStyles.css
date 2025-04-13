@@ -343,4 +343,23 @@ ul {
   font-size: 800%;
   color: #6a0dad;
 }
+input[type="number"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #8000ff; /* purple border */
+  width: 120px;
+  font-size: 16px;
+  background-color: #1e1e1e; /* dark background */
+  color: #ffffff; /* white text */
+  outline: none;
+  transition: 0.3s;
+}
 
+input[type="number"]::placeholder {
+  color: #ccc;
+}
+
+input[type="number"]:focus {
+  border-color: #a64dff;
+  box-shadow: 0 0 5px #a64dff;
+}

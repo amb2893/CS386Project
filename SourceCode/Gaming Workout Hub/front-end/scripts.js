@@ -59,6 +59,7 @@ let curWorkout;
 let curType;
 let workoutType;
 let timeRounds;
+let progress = parseInt(localStorage.getItem("workoutProgress")) || 0;
 
 ///////////////////////////////
 // FUNCTIONS
@@ -218,6 +219,9 @@ function playSound() {
 }
 
 function startTimer(type, finishEvent, customTime = 10) {
+  let time;
+  const timerDisplay = document.querySelector(".timer");
+
   function tick() {
     const min = String(Math.trunc(time / 60)).padStart(1, 0);
     const sec = String(Math.trunc(time % 60)).padStart(2, 0);
@@ -229,6 +233,16 @@ function startTimer(type, finishEvent, customTime = 10) {
     if (time === 0) {
       playSound();
       clearInterval(timer);
+
+      // Increment progress when timer ends
+      progress++;
+      localStorage.setItem("workoutProgress", progress);
+
+      const progressBar = document.getElementById("progressBar");
+      if (progressBar && progress <= 8) {
+        progressBar.value = progress;
+      }
+
       if (finishEvent) {
         finishEvent();
       }
@@ -237,8 +251,6 @@ function startTimer(type, finishEvent, customTime = 10) {
     // decrease time
     time--;
   }
-  let time;
-  const timerDisplay = document.querySelector(".timer");
 
   if (type === "interval") {
     const timerInput = document.querySelector(".number-input");
@@ -376,26 +388,35 @@ function handleSpaceBarReps(e) {
 //call this function in the login function to
 //alert the user at 10pm to get some rest
 //issue #42
-/*
-function startTime() {
-  const currentdate = new Date();
-  let h = currentdate.getHours();
+//for testing purposes
+function startChecking() 
+{
+  const userInput = document.getElementById("alertHour").value;
+  const alertHour = parseInt(userInput);
+  startTime(alertHour);
+}
 
-  //start the starttime function after 1 second to 
-  //get a new time every second
-  //may change to ever hour since
-  //we are basing the time at the hour mark
-  setTimeout(startTime, 1000);
-  
-  //Check for specific time if greater or equal to
-  //10 pm
-  if (h >= 22) 
-  { 
-  //alert the user
-    alert("It's 10pm! Time to go to sleep!");
+function startTime(alertHour) 
+{
+  const currentHour = new Date().getHours();
+  // see in it is a actual hour and not a name and in the parameters 0-23
+  if (isNaN(alertHour) || alertHour < 0 || alertHour > 23) 
+  {
+    //will timeout after a second and try again
+    setTimeout(() => startTime(alertHour), 1000);
+    return;
+  }
+
+  if (currentHour >= alertHour) 
+  {
+    alert(`It's ${currentHour}:00! Time to take action!`);
+  } 
+  else 
+  {
+    //will timeout after a second and try again
+    setTimeout(() => startTime(alertHour), 1000);
   }
 }
-*/
 
 ///////////////////////////////
 // EVENT HANDLERS
@@ -444,4 +465,11 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }
+});
+
+// saves progress bar progress
+document.addEventListener("DOMContentLoaded", () => {
+  const savedProgress = parseInt(localStorage.getItem("workoutProgress")) || 0;
+  document.getElementById("progressBar").value = savedProgress;
+  progress = savedProgress;
 });
