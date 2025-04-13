@@ -63,6 +63,19 @@ Print Screen:
 Automated test for startTime() function. The requires the installation of node on your VS code. You would just run node test.js and it will test the parameter that are given.
 ![Model](D-6-Pictures/testStartTime.png)
 
+Automated test for checking if the progress bar will increment by 1 after "finishing" a workout. Using Python and Selenium for automated website interaction, we were able to get a passing score with how our progress bar is implemented. Below is how the test is carried out:
+1. Opens website on local hosted server
+2. Navagates to "Workouts" page
+3. Clicks to first workout
+4. Accepts the workout
+5. Chooses time based
+6. Inputs 3 seconds for the time
+7. Waits of timer to hit zero so progress bar can be incremented
+8. Goes back to "Home"
+9. Goes to "Progress"
+10. Verifies the bar has been incremented to 1.
+![Model](D-6-Pictures/progressbarresult.png)
+
 ## Demo 
 
 ## Code Quality
