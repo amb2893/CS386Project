@@ -36,7 +36,7 @@ Print Screen:
 - Issue: [https://github.com/amb2893/CS386Project/issues/38 ](https://github.com/amb2893/CS386Project/issues/42)
 - Pull request: [https://github.com/amb2893/CS386Project/pull/63](https://github.com/amb2893/CS386Project/pull/) 
     - Implemented by: Franz Mischke
-    - Approved by: 
+    - Approved by: Anthony Birk
 
 Print Screen:
 ![Model](D-6-Pictures/alert.png)
@@ -54,7 +54,7 @@ Print Screen:
 - Issue: [#72](https://github.com/amb2893/CS386Project/issues/72)
 - Pull request: [#94](https://github.com/amb2893/CS386Project/pull/94)
     - Implemented by: Jalen Jensen
-    - Approved by:
+    - Approved by: Anthony Birk
 
 Print Screen:  
 ![Model](D-6-Pictures/progressBar.png)
