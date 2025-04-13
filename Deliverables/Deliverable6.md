@@ -60,6 +60,7 @@ Print Screen:
 ![Model](D-6-Pictures/progressBar.png)
 
 ## Tests
+### **Link to automated tests:** [Click Me](https://github.com/amb2893/CS386Project/tree/testHTML/PyTests)  
 Automated test for startTime() function. The requires the installation of node on your VS code. You would just run node test.js and it will test the parameter that are given.
 ![Model](D-6-Pictures/testStartTime.png)
 
