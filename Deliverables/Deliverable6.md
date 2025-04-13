@@ -1,4 +1,4 @@
-# Implementation 1
+# Implementation 2
 ## 1. Introduction
 Gaming Workout Hub is an exercise website that allows gamers to exercise while gaming, prioritizing customizability and tracking features based on the user. This website will make exercising at home fun and easy by letting gamers play games and get alarms of when to exercise and or check off a list of exercises they can customize. The gamer will be able to customize exactly what they want for their workout, allowing for a flexible schedule that caters to the gamers needs and wants. https://github.com/amb2893/CS386Project
 
@@ -36,7 +36,7 @@ Print Screen:
 - Issue: [https://github.com/amb2893/CS386Project/issues/38 ](https://github.com/amb2893/CS386Project/issues/42)
 - Pull request: [https://github.com/amb2893/CS386Project/pull/63](https://github.com/amb2893/CS386Project/pull/) 
     - Implemented by: Franz Mischke
-    - Approved by: 
+    - Approved by: Anthony Birk
 
 Print Screen:
 ![Model](D-6-Pictures/alert.png)
@@ -54,7 +54,7 @@ Print Screen:
 - Issue: [#72](https://github.com/amb2893/CS386Project/issues/72)
 - Pull request: [#94](https://github.com/amb2893/CS386Project/pull/94)
     - Implemented by: Jalen Jensen
-    - Approved by:
+    - Approved by: Anthony Birk
 
 Print Screen:  
 ![Model](D-6-Pictures/progressBar.png)
@@ -82,6 +82,13 @@ Automated test for checking if the progress bar will increment by 1 after "finis
 ![Model](D-6-Pictures/progressbarresultv2.png)
 
 ## Demo 
+<a href="https://youtu.be/RjpGIxPZzG4
+" target="_blank"><img src="https://img.youtube.com/vi/Rsx6NzS3mj8/maxresdefault.jpg" 
+alt="Link to Demo" width="480" height="360" border="10" /></a>
+
+### Website Deployment 
+https://gaming-workout-hub.onrender.com/index.html
+
 
 ## Code Quality
 Our team followed consistent code conventions such as clear section labeling (///////////////////////////////) and camelCase naming for variables and functions to enhance readability. We adopted modular function design and reused logic with helper functions like pageTransition() to keep the codebase clean and DRY (Don't Repeat Yourself). Additionally, we used meaningful naming and grouped related functionality, which helped us maintain high code quality and streamline future development or debugging efforts.
