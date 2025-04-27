@@ -98,7 +98,7 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 - Was anything confusing? "The notfication section is iffy and doesn't make sense to me"
 - Was the site's color ways appealing? "Yes I like purple"
 
-### Interview 3: Minuka
+### Interview 3: Chris Schanzer (4/25/25)
 ### Interviewee: Franz
 
 
