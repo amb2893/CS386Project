@@ -98,6 +98,33 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 - Was anything confusing? "The notfication section is iffy and doesn't make sense to me"
 - Was the site's color ways appealing? "Yes I like purple"
 
+### Interview 3: Minuka
+### Interviewee: Franz
+**Signing up:**
+- I thought the sign up process was simple as any other sign up process.
+- I didn’t see any errors. 
+- The simplicity. 
+- Not confusing.
+
+**Beginning a workout:**
+- Yes it was easy to start a workout.
+- I didn’t notices any errors.
+- I liked that I was any to pick and chose.
+- Nothing confusing.
+
+
+**Complete it your works:**
+- The profession bar is helpful and nice. 
+- No bugs. 
+- I liked everything. Nothing confusing. 
+- The workout were easy to do at home.
+
+**Navigation:**
+- I was easy to navigate through the website.
+- I noticed there was an error which the link under the title on the page.
+- The progression bar.
+- Other than that it was easy and aesthetically appealing.
+
 
 Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
 
