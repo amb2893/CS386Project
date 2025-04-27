@@ -100,6 +100,9 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 
 ### Interview 3: Minuka
 ### Interviewee: Franz
+
+
+### Data Collected
 **Signing up:**
 - I thought the sign up process was simple as any other sign up process.
 - I didn’t see any errors. 
@@ -122,7 +125,7 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 **Navigation:**
 - I was easy to navigate through the website.
 - I noticed there was an error which the link under the title on the page.
-- The progression bar.
+- The progression bar was neat.
 - Other than that it was easy and aesthetically appealing.
 
 
