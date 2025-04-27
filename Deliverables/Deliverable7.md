@@ -63,6 +63,42 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 - Was the site color ways appealing? Easy on the eyes yes
 
 
+
+
+### Interview 2: Gregory Thomas (4/26/25)
+### Interviewee: Luke Shahan
+
+
+### Data Collected 
+**Signing up:**
+- How was the sign up process? "Very easy"
+- Were there any errors or bugs? "Not any I could find"
+- What did you like about it? "I love the design of the website. It gives off the style of a gamer"
+- Was anything confusing? "Nope"
+
+
+**Beginning a workout:**
+- Was it easy to start a workout? "Yes, I was a little confused at first, but then I understood how to start it"
+- Were there any errors or bugs? "No"
+- What did you like about it? "It's a habit to start on"
+- Was anything confusing? "Just some of the pronunciation"
+
+
+**Complete it your works:**
+- Did you enjoy the progression of the workouts given? "Yes I find that a good tool to use"
+- Were there any errors or bugs? "No"
+- What did you like about it? "I like how it tracks how many workouts I've completed"
+- Was anything confusing? "no"
+- Were the workouts appealing? "Yes"
+
+**Navigation:**
+- Was it easy the navigate through the site? "Yes"
+- Are the noticeable errors in the sites layout? "I thought the features would navigate you through the website"
+- What did you like about it? "Everything is on the top so it is easy to scroll through"
+- Was anything confusing? "The notfication section is iffy and doesn't make sense to me"
+- Was the site's color ways appealing? "Yes I like purple"
+
+
 Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
 
 Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language.
