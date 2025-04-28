@@ -5,7 +5,6 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 
 ## Verification
 **Test File**: [File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_app_loads.py)  
-**Class File**: [Class](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_models.py)
 
 This automated testing file contains eight tests in total. For the first few tests, it checks each individual page and makes sure there are no errors in each page. Then checks to see if our login page works, by acting as a user that wants to register, successfully registers information, then trys to login with that information. If successfully, they will be redirected to the main page. 
 
