@@ -30,7 +30,7 @@ The body test is much simpler. Selenium first gathers all of the buttons that ar
 
 There is very simple output from Selenium after each successful test, but the assertions in the code would prevent these messages from being shown if they did not pass the tests.  
 Messages after successful tests:  
-![Successful Tests](https://github.com/amb2893/CS386Project/tree/testHTML/Deliverables/D-7-Pictures/successful-tests.png)
+![Successful Tests](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-7-Pictures/successful-tests.png)
 
 ## Validation
 At the beginning of the semester, you talked to the clients/potential users to understand their needs. Now it is time to check if you are on the right track by conducting some user evaluation on the actual system. Include in this deliverable the following information:
