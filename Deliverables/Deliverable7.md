@@ -4,15 +4,54 @@ Gaming Workout Hub is an exercise website that allows gamers to exercise while g
 
 
 ## Verification
-Verification aims to ensure that you correctly developed the product. 
+**Test File**: [File](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_app_loads.py)  
+**Class File**: [Class](https://github.com/amb2893/CS386Project/blob/testHTML/PyTests/test_models.py)
 
-For this deliverable, show an example of a unit test that uses mock objects to isolate the class from the rest of the system. 
+This automated testing file contains eight tests in total. For the first few tests, it checks each individual page and makes sure there are no errors in each page. Then checks to see if our login page works, by acting as a user that wants to register, successfully registers information, then trys to login with that information. If successfully, they will be redirected to the main page. 
 
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case that makes use of mock objects. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the unit tests execution. 
-Grading criteria (5 points): adequate choice of a test framework, coverage of the tests, quality of the tests, adequate use of Mock objects, and a print screen showing successful test execution.
+**First Test**:
+1. Loads start page
+2. Checks to see if successfully loaded  
+![Test Pic](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-6-Pictures/Screenshot%202025-04-27%20170158.png)
+
+**Second Test**:
+1. Loads login page
+2. Checks to see if loaded
+
+**Third Test**:
+1. Loads workout page
+2. Checks to see if loaded
+  
+**Fourth Test**:
+1. Loads about page
+2. Checks to see if loaded
+  
+**Fifth Test**:
+1. Loads contact page
+2. Checks to see if loaded
+  
+**Sixth Test**:
+1. Loads body page
+2. Checks to see if loaded
+
+**Seventh Test**:
+1. Loads register page
+2. Fills in name box
+3. Fills in email box
+4. Fills in password box
+5. Enters information
+6. Check to see if successfully by checking if redirected to login page
+![Test Pic](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-6-Pictures/Screenshot%202025-04-27%20170144.png)
+  
+**Eigth Test**:
+1. Continues on login page
+2. Fills in email box
+3. Fills in password box
+4. Enters information
+5. Checks to see if login successful by check if redirected to main page
+![Test Pic](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-6-Pictures/Screenshot%202025-04-27%20170153.png)
+  
+![Test Pic](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-6-Pictures/image_2025-04-27_164815813.png)
 
 ## Acceptance Test
 For the acceptance tests, we used Selenium to test the user interface, specifically with Google Chrome and the Chrome webdriver.  
