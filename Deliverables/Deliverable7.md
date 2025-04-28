@@ -72,11 +72,8 @@ Messages after successful tests:
 ![Successful Tests](https://github.com/amb2893/CS386Project/blob/testHTML/Deliverables/D-7-Pictures/successful-tests.png)
 
 ## Validation
-At the beginning of the semester, you talked to the clients/potential users to understand their needs. Now it is time to check if you are on the right track by conducting some user evaluation on the actual system. Include in this deliverable the following information:
 
-Script: The script should have the tasks that you gave to the user, what data you collected, and the questions you asked. In particular, do not forget to add questions about the users’ general impressions. You can ask open questions (e.g., How would you describe the homepage of our app? How do you compare our system to the competitor X?) or closed questions (On a scale of 1 to 10, how would you rate the layout of our application? On the same scale, how likely would you use the system in its current state?). Take a look at the inception and requirements deliverables to help create the script. Design a script to check if you are achieving your initial goals and if the features are implemented in a satisfactory way. 
-
-Results: Conduct the user evaluation with at least 3 users. Report the data that you collected.
+Results: 
 ### Interview 1: Gabby Reinert (4/25/25)
 ### Interviewee: Anthony
 
@@ -177,6 +174,30 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 - Other than that it was easy and aesthetically appealing.
 
 
-Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
+**Reflections:**
 
-Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language.
+Reflection on User Observations
+
+**What Worked Well**
+- Sign-up was smooth, simple, and bug-free.
+- Workout progression and tracking were easy and motivating.
+- Site design and color scheme were appealing.
+- Navigation was mostly intuitive.
+
+**What Needs Improvement****
+- Notification system was confusing to some users.
+- Home page features looked clickable but weren't.
+- Missing back button after starting a workout.
+- Minor link error under a page title.
+
+**Learning Curve**
+- Very low — users quickly figured out how to use the system.
+
+**User Expectations**
+- Users' actions generally produced expected results.
+- Small moments of confusion were quickly overcome.
+
+**Highlights**
+- Users loved the progress bar and visual design.
+- The value proposition was mostly accomplished, with minor tweaks needed.
+
